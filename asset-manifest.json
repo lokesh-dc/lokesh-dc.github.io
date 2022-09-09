@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/lokesh-dc.github.io/static/css/main.073c9b0a.css",
+    "main.js": "/lokesh-dc.github.io/static/js/main.9bcf0039.js",
+    "static/js/787.1ed0c42c.chunk.js": "/lokesh-dc.github.io/static/js/787.1ed0c42c.chunk.js",
+    "index.html": "/lokesh-dc.github.io/index.html",
+    "main.073c9b0a.css.map": "/lokesh-dc.github.io/static/css/main.073c9b0a.css.map",
+    "main.9bcf0039.js.map": "/lokesh-dc.github.io/static/js/main.9bcf0039.js.map",
+    "787.1ed0c42c.chunk.js.map": "/lokesh-dc.github.io/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.9bcf0039.js"
+  ]
+}
