@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/lokesh-dc.github.io/static/css/main.073c9b0a.css",
-    "main.js": "/lokesh-dc.github.io/static/js/main.eedff6b7.js",
-    "static/js/787.1ed0c42c.chunk.js": "/lokesh-dc.github.io/static/js/787.1ed0c42c.chunk.js",
-    "index.html": "/lokesh-dc.github.io/index.html",
-    "main.073c9b0a.css.map": "/lokesh-dc.github.io/static/css/main.073c9b0a.css.map",
-    "main.eedff6b7.js.map": "/lokesh-dc.github.io/static/js/main.eedff6b7.js.map",
-    "787.1ed0c42c.chunk.js.map": "/lokesh-dc.github.io/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/static/css/main.073c9b0a.css",
+    "main.js": "/static/js/main.8aa9c850.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "index.html": "/index.html",
+    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
+    "main.8aa9c850.js.map": "/static/js/main.8aa9c850.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.eedff6b7.js"
+    "static/js/main.8aa9c850.js"
   ]
 }
