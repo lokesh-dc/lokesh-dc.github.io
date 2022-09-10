@@ -6,7 +6,7 @@ function App() {
       <h1>HELLO</h1>
       <h2>Lokesh Choudhary</h2>
       <h3>Web Developer</h3>
-      <p>Site out for maintainance</p>
+      <p>out for maintainance</p>
     </div>
   );
 }
