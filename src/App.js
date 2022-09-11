@@ -1,12 +1,17 @@
+import { Grid } from '@chakra-ui/react';
 import './App.css';
+import About from './components/About';
+import Navbar from './components/Navbar';
+import Skills from './components/Skills';
 
 function App() {
   return (
     <div className="App">
-      <h1>HELLO</h1>
-      <h2>Lokesh Choudhary</h2>
-      <h3>Web Developer</h3>
-      <p>out for maintainance</p>
+      <Grid>
+        <Navbar />
+        <About />
+        <Skills />
+      </Grid>
     </div>
   );
 }
