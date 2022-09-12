@@ -1,16 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.391cb18c.css",
-    "main.js": "/static/js/main.e1910822.js",
+    "main.css": "/static/css/main.883e5569.css",
+    "main.js": "/static/js/main.9c702a48.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/profile.jpg": "/static/media/profile.6b3e4762320a3234fef5.jpg",
+    "static/media/Lokesh-Choudhary-Resume.pdf": "/static/media/Lokesh-Choudhary-Resume.eedf4fa42de3312f9d30.pdf",
+    "static/media/chakrabw.png": "/static/media/chakrabw.ea1eda56b69d993f1e4a.png",
+    "static/media/mongobw.png": "/static/media/mongobw.7f44ed7984e85126a507.png",
+    "static/media/active.png": "/static/media/active.d8d9fa3e15cf0ffd3204.png",
+    "static/media/collab.png": "/static/media/collab.bfa728ed7c702ca76997.png",
+    "static/media/empathy.png": "/static/media/empathy.c9b70b81acf849c42077.png",
+    "static/media/reactbw.png": "/static/media/reactbw.5cb83655567dd3efc230.png",
+    "static/media/nodejs'.png": "/static/media/nodejs'.1393f8adffcb082e75ea.png",
+    "static/media/git.png": "/static/media/git.26acde00c5378f1fcb46.png",
+    "static/media/writting.png": "/static/media/writting.0f46e2728eb984e21ce8.png",
     "index.html": "/index.html",
-    "main.391cb18c.css.map": "/static/css/main.391cb18c.css.map",
-    "main.e1910822.js.map": "/static/js/main.e1910822.js.map",
+    "main.883e5569.css.map": "/static/css/main.883e5569.css.map",
+    "main.9c702a48.js.map": "/static/js/main.9c702a48.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.391cb18c.css",
-    "static/js/main.e1910822.js"
+    "static/css/main.883e5569.css",
+    "static/js/main.9c702a48.js"
   ]
 }
