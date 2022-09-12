@@ -3,6 +3,7 @@ import './App.css';
 import About from './components/About';
 import Navbar from './components/Navbar';
 import Skills from './components/Skills';
+import TechStack from './components/TechStack';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Navbar />
         <About />
         <Skills />
+        <TechStack />
       </Grid>
     </div>
   );

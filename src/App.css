@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+
 .App {
   text-align: center;
   font-family: 'Rubik', sans-serif;
@@ -13,9 +17,93 @@
   display: block;
   margin: auto;
 }
+#resume{
+  margin: 20px 0;
+  padding: 0 30px;
+  border: 1px solid black;
+  border-radius: 0;
+}
+#profile{
+  display: block;
+  margin: auto;
+}
 
 .heading {
-  font-size: 40px;
-  letter-spacing: 2px ;
+  font-size: 3rem;
+  color: #f3f3f3;
+  letter-spacing: 0px ;
   text-transform: uppercase;
+  text-align: left;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.heading>p:nth-of-type(2){
+  color: black;
+  position: absolute;
+  bottom: 15px;
+  font-size: 2.5rem;
+  left: 0px;
+  letter-spacing: 2px ;
+}
+
+.subHead {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+.subHead:hover{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+#skills{
+  padding: 20px;
+}
+
+#skills > div{
+  padding: 20px;
+  border-right:1px solid rgba(0, 0, 0, 0.116);
+  border-bottom:1px solid rgba(0, 0, 0, 0.116);
+
+}
+
+#skills img{
+  display: block;
+  margin: auto;
+  width: 90px;
+  height: 90px;
+}
+
+
+#skills p{
+  color: black;
+  font-size: 20px;
+  padding: 10px 0;
+  letter-spacing: 1px;
+  font-family: 'Special Elite', cursive;
+}
+
+
+#techStack img{
+  width: 40px;
+}
+#techStack > div{
+  height: fit-content;
+}
+#techStack > div > div{
+  align-items: center;
+  gap: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.216);
+  padding: 5px 20px;
+  height: 70px;
+  grid-auto-flow: column;
+}
+#techStack > div > div:hover{
+  background-color: #f3f3f3;
+  cursor: pointer;
 }
