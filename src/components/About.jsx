@@ -14,8 +14,8 @@ export default function About() {
                         <Button variant="outline" id="resume" _hover={{bg:"black", color:"white"}} >RESUME</Button>
                     </a>
                 </Box>
-                <Box display={{sm:"none", mg:"block", lg:"block"}} >
-                    <Img id="profile" display={{base:"none", sm:"none", mg:"block", lg:"block"}} src={require("../Resources/profile.jpg")} alt="Lokesh-choudhary-Profile.jpg" w="75%"  />
+                <Box display={{sm:"none", mg:"block", lg:"block"}} id="profile">
+                    <Img  display={{base:"none", sm:"none", mg:"block", lg:"block"}} src={require("../Resources/profile.jpg")} alt="Lokesh-choudhary-Profile.jpg" w="75%"  />
                 </Box>
             </Grid>
             <Grid justifyContent="center" templateColumns= {{sm:"1fr", md:"1fr",lg:"1fr 1fr 1fr"}} gap={5} px={40}>

@@ -24,8 +24,12 @@
   border-radius: 0;
 }
 #profile{
+  background-color: #d6d6d6;
+  border-radius: 50%;
+}
+#profile img{
   display: block;
-  margin: auto;
+  margin: 40px auto;
 }
 
 .heading {
