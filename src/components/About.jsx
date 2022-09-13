@@ -1,4 +1,4 @@
-import { Grid, Img, Text } from "@chakra-ui/react"
+import { Grid, Img } from "@chakra-ui/react"
 import { Link } from "react-scroll"
 import Intro from "./Intro"
 import Profile from "./Profile"

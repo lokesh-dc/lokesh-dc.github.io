@@ -1,8 +1,7 @@
-import { Grid, Text, Flex, Box, List, ListItem, ListIcon} from "@chakra-ui/react";
+import { Grid, Text, Flex, Box, List, ListItem, ListIcon, Button} from "@chakra-ui/react";
 import {  MdCheckCircle } from 'react-icons/md'
 
-export default function ProjectCard({details, src}) {
-    console.log(src)
+export default function ProjectCard({details}) {
     return (
         <Grid templateColumns={{base:"1fr",sm:"1fr",md:"1fr", lg:"1fr" }}>
             <img src={require("../Resources/Projects/monsterIndia.png")} alt="" />
@@ -27,9 +26,12 @@ export default function ProjectCard({details, src}) {
                                 </ListItem>
                         ))
                     }
-                    
-
                 </List>
+                <Grid templateColumns="1fr 1fr" gap={10} m="10px">
+                    <Button colorScheme='blue' >LIVE PROJECT</Button>
+                    <Button variant="outline"  colorScheme='blue'>VIEW CODE</Button>
+                </Grid>
+
             </Grid>
         </Grid> 
     )

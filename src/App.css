@@ -152,7 +152,6 @@
 .tech{
   gap: 5px;
   font-size: 15px;
-  justify-content: center;
 }
 .tech > div {
   color: grey;
