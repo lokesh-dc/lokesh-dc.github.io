@@ -2,16 +2,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
 .App {
   text-align: center;
   font-family: 'Rubik', sans-serif;
-  padding: 0 150px;
 }
 
+#navbar > a.active ,
+#navbar > a:hover{
+  text-decoration: 3px underline;
+  text-underline-offset: 10px;
+}
+
+#name {
+  color:#d6d6d6;
+}
+
+#name > span {
+  font-weight: bold;
+  color: black;
+  display: inline-block;
+}
 #logo{
-  width: 100px;
+  font-family: 'Shadows Into Light', cursive;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 2rem;
 }
 #arrow{
   display: block;
@@ -27,6 +44,7 @@
   background-color: #d6d6d6;
   border-radius: 50%;
 }
+
 #profile img{
   display: block;
   margin: 40px auto;
@@ -65,49 +83,79 @@
   color: white;
   cursor: pointer;
 }
-#skills{
+#techStack{
   padding: 20px;
 }
 
-#skills > div{
+#techStack > div{
+
   padding: 20px;
   border-right:1px solid rgba(0, 0, 0, 0.116);
   border-bottom:1px solid rgba(0, 0, 0, 0.116);
 
 }
 
-#skills img{
+#techStack img{
   display: block;
   margin: auto;
-  width: 90px;
-  height: 90px;
+  width: 50px;
+  height: 50px;
 }
 
 
-#skills p{
+#techStack p{
   color: black;
-  font-size: 20px;
+  font-size: 1.2rem;
   padding: 10px 0;
   letter-spacing: 1px;
   font-family: 'Special Elite', cursive;
 }
 
 
-#techStack img{
-  width: 40px;
+#skills img{
+  width: 30px;
 }
-#techStack > div{
+#skills > div{
   height: fit-content;
+  border: 1px solid rgba(129, 129, 129, 0.103);
+  border-radius: 10px;
+  padding: 20px;
 }
-#techStack > div > div{
+#skills > div > div{
+  font-size: 1rem;
   align-items: center;
   gap: 20px;
-  border: 1px solid rgba(0, 0, 0, 0.216);
+  border: 1px solid rgba(0, 0, 0, 0.255);
+  border-radius: 5px;
   padding: 5px 20px;
   height: 70px;
   grid-auto-flow: column;
 }
-#techStack > div > div:hover{
+#skills > div > div:hover{
   background-color: #f3f3f3;
   cursor: pointer;
+}
+
+
+#projects > div{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  text-align: left;
+}
+#projects>div>div{
+  padding: 10px;
+}
+/* #projects img{
+  width: 75%;
+  display: block;
+  margin: auto;
+} */
+.tech{
+  gap: 5px;
+  font-size: 15px;
+  justify-content: center;
+}
+.tech > div {
+  color: grey;
+  border: 2px solid #f3f3f3;
+  padding: 0.2rem 1rem ;
 }

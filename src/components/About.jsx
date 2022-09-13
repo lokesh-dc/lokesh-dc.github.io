@@ -1,30 +1,22 @@
-import { Box, Button, Grid, Img, Text } from "@chakra-ui/react"
+import { Grid, Img, Text } from "@chakra-ui/react"
+import { Link } from "react-scroll"
+import Intro from "./Intro"
+import Profile from "./Profile"
 import SocialMediaIcons from "./SocialMediaIcons"
 export default function About() {
     return (
-        <>
-            <Grid templateColumns={{sm:"1fr",md:"1fr", lg:"2fr 1fr"}} p={10} mt="20px"  textAlign="left" justifyContent="center" alignItems="center">
-                <Box p={{sm:0 , md:0, lg:20}} >
-                    <Text fontSize="4xl">HELLO</Text>
-                    <Text fontSize="7xl">I'm <b>Lokesh Choudhary</b></Text>
-                    <Text fontSize="5xl" color="red">Web Developer</Text>
-                    <Text fontSize="2xl">I build interactive websites that run across platforms AND devices </Text>
-                    <Text fontSize="xl" color="grey">ofcourse there's so much more to me than just a few fancy titles <br /> Scroll down to know me</Text>
-                    <a href={require("../Resources/Lokesh-Choudhary-Resume.pdf")} download="Lokesh-Choudhary-Resume">
-                        <Button variant="outline" id="resume" _hover={{bg:"black", color:"white"}} >RESUME</Button>
-                    </a>
-                </Box>
-                <Box display={{sm:"none", mg:"block", lg:"block"}} id="profile">
-                    <Img  display={{base:"none", sm:"none", mg:"block", lg:"block"}} src={require("../Resources/profile.jpg")} alt="Lokesh-choudhary-Profile.jpg" w="75%"  />
-                </Box>
+        <Grid id="about-section">
+            <Grid templateColumns={{sm:"1fr",md:"1fr", lg:"2fr 1fr"}} p={{base:"10px",sm:"10px", md:5,lg:10}} gap={{base:"10px", sm:"20px"}} mt="20px"  textAlign="left" justifyContent="center" alignItems="center">
+                <Intro />
+                <Profile />
             </Grid>
-            <Grid justifyContent="center" templateColumns= {{sm:"1fr", md:"1fr",lg:"1fr 1fr 1fr"}} gap={5} px={40}>
+            <Grid justifyContent="space-evenly" templateColumns= {{base:"1fr", sm:"1fr", md:"1fr",lg:"1fr 1fr 1fr"}} gap={5} py={5} px={40} my={10}>
                 <SocialMediaIcons />
                 <Grid justifyContent="center">
-                    <Text textAlign="center" fontSize="15px" letterSpacing="2px">SCROLL</Text>
+                    <Link to="tech-section" spy={true} smooth={true} offset={-60} duration={750} textAlign="center" fontSize="15px" letterSpacing="2px">SCROLL</Link>
                     <Img src="https://cdn-icons-png.flaticon.com/512/2413/2413298.png" id="arrow" alt="slide-down" width="20px"  />
                 </Grid>
             </Grid>
-        </>
+        </Grid>
     )
 }

@@ -1,49 +1,77 @@
-import { Box, Grid, Img, Text } from "@chakra-ui/react";
+import {  Flex, Grid,Img,Text } from "@chakra-ui/react";
 import Heading from "./Heading";
-export default function Skills () {
-    return (
-        <>
-        <Heading title="TECHNICAL SKILLS"/>
-        <Grid mt="50px">
-            <Grid templateColumns={{base:"1fr", sm:"repeat(2,1fr)", md:"repeat(3,1fr)", lg:"repeat(5,1fr)"}} px={20} justifyContent="space-around" id="skills">
-                <Box>
+
+export default function TechStack() {
+    return(
+        <Grid id="skills-section" >
+        <Heading  title="SKILLS" />
+        <Grid p="20px"  id="skills" templateColumns={{base:"1fr",sm:"repeat(2,1fr)", md:"repeat(2,1fr)", lg:"repeat(4,1fr)"}} gap="30px" textAlign="left" >
+            <Grid gap={10} >
+                <Text className="subHead">Frontend Development</Text>
+                <Flex>
                     <Img src={require("../Resources/icons/Tech/BW/htmlbw.png")} alt="" />
-                    <Text>HTML5</Text>
-                </Box>
-                <Box>
+                    <Text>HTML</Text>
+                </Flex>
+                <Flex>
                     <Img src={require("../Resources/icons/Tech/BW/cssbw.png")} alt="" />
                     <Text>CSS3</Text>
-                </Box>
-                <Box>
+                </Flex>
+                <Flex>
                     <Img src={require("../Resources/icons/Tech/BW/jsbw.png")} alt="" />
                     <Text>JavaScript</Text>
-                </Box>
-                <Box>
+                </Flex>
+                <Flex>
                     <Img src={require("../Resources/icons/Tech/BW/reactbw.png")} alt="" />
                     <Text>React</Text>
-                </Box>
-                <Box>
+                </Flex>
+                <Flex>
                     <Img src={require("../Resources/icons/Tech/BW/chakrabw.png")} alt="" />
                     <Text>Chakra UI</Text>
-                </Box>
-                <Box>
+                </Flex>
+            </Grid>
+            <Grid gap={10}>
+            <Text className="subHead">Communication Skills</Text>
+                <Flex >
+                    <Img src={require("../Resources/icons/cs/writting.png")} alt="" />
+                    <Text>Writting</Text>
+                </Flex>
+                <Flex>
+                    <Img src={require("../Resources/icons/cs/collab.png")} alt="" />
+                    <Text>Collaboration</Text>
+                </Flex>
+                <Flex>
+                    <Img src={require("../Resources/icons/cs/active.png")} alt="" />
+                    <Text>Active Listening</Text>
+                </Flex>
+                <Flex>
+                    <Img src={require("../Resources/icons/cs/empathy.png")} alt="" />
+                    <Text>Empathy</Text>
+                </Flex>
+            </Grid>
+            <Grid gap={10}>
+            <Text className="subHead">Data Structures & Algorithm</Text>
+                <Flex >
+                    <Img src={require("../Resources/icons/Tech/BW/htmlbw.png")} alt="" />
+                    <Text>Problem Solving</Text>
+                </Flex>
+
+            </Grid>
+            <Grid gap={10}>
+            <Text className="subHead">Backend Development</Text>
+                <Flex >
+                    <Img src={require("../Resources/icons/Tech/BW/express.png")} alt="" />
+                    <Text>Express</Text>
+                </Flex>
+                <Flex>
                     <Img src={require("../Resources/icons/Tech/BW/mongobw.png")} alt="" />
                     <Text>Mongo DB</Text>
-                </Box>
-                <Box>
-                    <Img src={require("../Resources/icons/Tech/BW/nodejs'.png")} alt="" />
-                    <Text>Node JS</Text>
-                </Box>
-                <Box>
-                    <Img src={require("../Resources/icons/Tech/BW/express.png")} alt="" />
-                    <Text>Express JS</Text>
-                </Box>
-                <Box>
+                </Flex>
+                <Flex>
                     <Img src={require("../Resources/icons/Tech/BW/git.png")} alt="" />
                     <Text>GitHub</Text>
-                </Box>
+                </Flex>
             </Grid>
         </Grid>
-        </>
+        </Grid>
     )
 }
