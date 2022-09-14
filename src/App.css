@@ -144,11 +144,11 @@
 #projects>div>div{
   padding: 10px;
 }
-/* #projects img{
-  width: 75%;
-  display: block;
-  margin: auto;
-} */
+#projects button {
+  background-color: black;
+  color: white;
+  font-weight: 100;
+}
 .tech{
   gap: 5px;
   font-size: 15px;
