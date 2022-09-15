@@ -26,7 +26,7 @@ export default function ProjectCard({details}) {
                     }
                 </List>
 
-                <Box pos="absolute" top="0" right="10px" color="green" fontWeight="bold"> . LIVE</Box>
+                <Box pos="absolute" top="0" right="0" color="green" fontWeight="bold" border="1px solid" p="2px 6px"> . LIVE</Box>
 
 
             </Grid>

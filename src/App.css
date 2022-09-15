@@ -161,6 +161,11 @@
   color: black;
 }
 
+.projectbuttons button:hover {
+  background-color: black;
+  color: white;
+}
+
 
 .tech{
   gap: 5px;
