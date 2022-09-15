@@ -30,6 +30,33 @@ export default function TechStack() {
                 </Flex>
             </Grid>
             <Grid gap={10}>
+            <Text className="subHead">Backend Development</Text>
+                <Flex >
+                    <Img src={require("../Resources/icons/Tech/BW/express.png")} alt="" />
+                    <Text>Express</Text>
+                </Flex>
+                <Flex>
+                    <Img src={require("../Resources/icons/Tech/BW/mongobw.png")} alt="" />
+                    <Text>Mongo DB</Text>
+                </Flex>
+                <Flex>
+                    <Img src={require("../Resources/icons/Tech/BW/git.png")} alt="" />
+                    <Text>GitHub</Text>
+                </Flex>
+                <Flex>
+                    <Img src={require("../Resources/icons/Tech/BW/postman.png")} alt="" />
+                    <Text>POSTMAN</Text>
+                </Flex>
+            </Grid>
+            <Grid gap={10}>
+            <Text className="subHead">Data Structures & Algorithm</Text>
+                <Flex >
+                    <Img src={require("../Resources/icons/Tech/BW/htmlbw.png")} alt="" />
+                    <Text>Problem Solving</Text>
+                </Flex>
+
+            </Grid>
+            <Grid gap={10}>
             <Text className="subHead">Communication Skills</Text>
                 <Flex >
                     <Img src={require("../Resources/icons/cs/writting.png")} alt="" />
@@ -46,29 +73,6 @@ export default function TechStack() {
                 <Flex>
                     <Img src={require("../Resources/icons/cs/empathy.png")} alt="" />
                     <Text>Empathy</Text>
-                </Flex>
-            </Grid>
-            <Grid gap={10}>
-            <Text className="subHead">Data Structures & Algorithm</Text>
-                <Flex >
-                    <Img src={require("../Resources/icons/Tech/BW/htmlbw.png")} alt="" />
-                    <Text>Problem Solving</Text>
-                </Flex>
-
-            </Grid>
-            <Grid gap={10}>
-            <Text className="subHead">Backend Development</Text>
-                <Flex >
-                    <Img src={require("../Resources/icons/Tech/BW/express.png")} alt="" />
-                    <Text>Express</Text>
-                </Flex>
-                <Flex>
-                    <Img src={require("../Resources/icons/Tech/BW/mongobw.png")} alt="" />
-                    <Text>Mongo DB</Text>
-                </Flex>
-                <Flex>
-                    <Img src={require("../Resources/icons/Tech/BW/git.png")} alt="" />
-                    <Text>GitHub</Text>
                 </Flex>
             </Grid>
         </Grid>
