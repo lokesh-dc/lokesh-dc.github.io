@@ -12,7 +12,7 @@ export default function Navbar() {
             <Grid templateColumns="repeat(5,1fr)" id="navbar">
                 <Link to="about-section" spy={true} smooth={true} offset={-80} duration={750}>.about()</Link>
                 <Link to="tech-section" spy={true} smooth={true} offset={-60} duration={750}>.technologies()</Link>
-                <Link to="skills-section" sy={true} smooth={true} offset={-60} duration={750}>.skills()</Link>
+                <Link to="skills-section" spy={true} smooth={true} offset={-60} duration={750}>.skills()</Link>
                 <Link to="projects-section" spy={true} smooth={true} offset={-75} duration={750}>.projects()</Link>
                 <Link to="contact" spy={true} smooth={true} offset={-50} duration={750}>.contact()</Link>
             </Grid>

@@ -176,3 +176,33 @@
   border: 2px solid #f3f3f3;
   padding: 0.2rem 1rem ;
 }
+
+#statistics {
+  justify-content: center;
+  align-items: center;
+}
+
+#statistics > div {
+  justify-content: center;
+  align-items: center;
+}
+
+#statistics > div >div{
+  padding: 20px 20px;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#background-text{
+  color: rgba(128, 128, 128, 0.089);
+  letter-spacing: 10px;
+}
+
+.section {
+  width: 100%;
+  justify-content: center;
+}

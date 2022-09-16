@@ -13,7 +13,7 @@ export default function About() {
             <Grid justifyContent="space-evenly" templateColumns= {{base:"1fr", sm:"1fr", md:"1fr",lg:"1fr 1fr 1fr"}} gap={5} py={5} px={40} my={10}>
                 <SocialMediaIcons />
                 <Grid justifyContent="center">
-                    <Link to="tech-section" spy={true} smooth={true} offset={-60} duration={750} textAlign="center" fontSize="15px" letterSpacing="2px">SCROLL</Link>
+                    <Link to="tech-section" spy={true} smooth={true} offset={-60} duration={750} fontSize="15px" letterSpacing="2px">SCROLL</Link>
                     <Img src="https://cdn-icons-png.flaticon.com/512/2413/2413298.png" id="arrow" alt="slide-down" width="20px"  />
                 </Grid>
             </Grid>
