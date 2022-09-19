@@ -20,8 +20,8 @@ export default function GitCalendar (){
       <Grid className="section" p={20}  >
         <Githubcalendar
           username="lokesh-dc"
-          blockSize={15}
-          blockMargin={5}
+          blockSize={25}
+          blockMargin={6}
           theme={colourTheme}
           fontSize={16}
         />

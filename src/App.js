@@ -1,6 +1,7 @@
 import { Grid } from '@chakra-ui/react';
 import './App.css';
 import About from './components/About';
+import Contact from './components/Contact';
 import GitCalendar from './components/gitHubCalendar';
 import Navbar from './components/Navbar';
 import Projects from './components/Projects';
@@ -20,6 +21,7 @@ function App() {
           <Projects />
           <Statistics />
           <GitCalendar />
+          <Contact />
         </Grid>
       </Grid>
     </Grid>

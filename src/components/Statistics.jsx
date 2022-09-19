@@ -14,7 +14,7 @@ export default function Statistics () {
     return (
         <Grid p="10px">
             <Heading title="Statistics"/>
-            <Grid templateColumns={{base:"repeat(2,1fr)", sm:"repeat(2,1fr)", md:"repeat(4,1fr)", lg:"repeat(4,1fr)"}} id="statistics" gap="40px" className="bgtext"   py="50px"
+            <Grid templateColumns={{base:"", sm:"repeat(2,1fr)", md:"repeat(4,1fr)", lg:"repeat(4,1fr)"}} id="statistics" gap="40px" className="bgtext"   py="50px"
                 pos="relative"
             >
                 {
@@ -22,7 +22,7 @@ export default function Statistics () {
                         <StatisticsCard key={index} details={i}/>
                     ))
                 }
-                <Text pos="absolute" top={0} left={"20%"} id="background-text" fontSize={{base: "0rem", sm:"0rem", md:"8rem", lg:"10rem" }}> STATISTICS</Text>
+                <Text pos="absolute" top={0} left={"20%"} id="background-text" letterSpacing="10px" fontSize={{base: "0rem", sm:"0rem", md:"8rem", lg:"10rem" }}> STATISTICS</Text>
             </Grid>
         </Grid>
     )
