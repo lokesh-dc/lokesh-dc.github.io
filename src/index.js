@@ -15,11 +15,11 @@ const breakpoints = {
   '2xl': '1536px',
 }
 // 3. Extend the theme
-const theme = extendTheme({ breakpoints })
+export const theme = extendTheme({ breakpoints })
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <ChakraProvider>
+  <ChakraProvider theme={theme}>
     <App />
   </ChakraProvider>
 );
