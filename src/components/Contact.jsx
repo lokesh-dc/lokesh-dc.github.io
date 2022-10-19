@@ -19,7 +19,7 @@ export default function Contact() {
                     <img src={require("../Resources/contact/mail.png")} alt="mail-me" />
                     <Text>lokesh.cdewanand@gmail.com</Text>
                 </a>
-                <a href="tel:9172659994" target="_blank" rel="noopener noreferrer">
+                <a href="tel:9172659994" >
                     <img src={require("../Resources/contact/call.png")} alt="call-me" />
                     <Text>9172659994</Text>
                 </a>

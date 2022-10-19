@@ -25,11 +25,10 @@ const ProjectDetails = [
 
 export default function Projects () {
     return (
-        <Grid id="projects-section" p="20px" >
+        <Grid id="projects-section" >
             <Heading title="PROJECTS" />
 
-
-            <Grid id="projects" templateColumns={{base:"1fr", sm: "1fr",md:"repeat(2,1fr)",lg:"repeat(3,1fr)" }} gap="100px" pos="relative">
+            <Grid id="projects" templateColumns={{base:"1fr", sm: "1fr",md:"repeat(2,1fr)",lg:"repeat(3,1fr)" }} gap="50px" pos="relative">
                 <Grid templateColumns={{base:"1fr",sm:"1fr",md:"1fr", lg:"1fr" }}>
                     <img src={require("../Resources/Projects/monsterIndia.png")} alt=""/>
                     <ProjectCard key={0} details={ProjectDetails[0]} />

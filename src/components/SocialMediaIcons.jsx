@@ -12,7 +12,7 @@ export default function SocialMediaIcons() {
             <a href="mailto:lokesh.cdewanand@gmail.com" target="_blank" rel="noopener noreferrer">
                 <img src={require("../Resources/icons/email.png")} alt="mail-me" />
             </a>
-            <a href="tel:9172659994" target="_blank" rel="noopener noreferrer">
+            <a href="tel:9172659994">
                 <img src={require("../Resources/icons/phone.png")} alt="call-me" />
             </a>
         </Grid>

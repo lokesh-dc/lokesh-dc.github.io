@@ -7,7 +7,7 @@ let statisticsDetails = [
     {hrs:1200, title: "Hours of Full Stack Coding"},
     {hrs:323, title: "Git Commits"},
     {hrs:100, title: "Hours of Soft Skill Sessions"},
-    {hrs:3, title: "Full Stack projects done"},
+    {hrs:4, title: "Full Stack projects done"},
 ]
 
 export default function Statistics () {

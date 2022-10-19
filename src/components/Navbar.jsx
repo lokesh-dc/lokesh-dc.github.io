@@ -15,11 +15,11 @@ export default function Navbar() {
             id="navbar"
             display={{base:"none", sm:"none", md:"grid", lg:"grid"}}
             >
-                <Link to="about-section" spy={true} smooth={true} offset={-80} duration={750}>.about()</Link>
-                <Link to="tech-section" spy={true} smooth={true} offset={-60} duration={750}>.technologies()</Link>
-                <Link to="skills-section" spy={true} smooth={true} offset={-60} duration={750}>.skills()</Link>
-                <Link to="projects-section" spy={true} smooth={true} offset={-75} duration={750}>.projects()</Link>
-                <Link to="contact-section" spy={true} smooth={true} offset={-50} duration={750}>.contact()</Link>
+                <Link to="about-section" spy={true} smooth={true} offset={-80} duration={50}>.about()</Link>
+                <Link to="tech-section" spy={true} smooth={true} offset={-80} duration={50}>.technologies()</Link>
+                <Link to="skills-section" spy={true} smooth={true} offset={-80} duration={50}>.skills()</Link>
+                <Link to="projects-section" spy={true} smooth={true} offset={-90} duration={50}>.projects()</Link>
+                <Link to="contact-section" spy={true} smooth={true} offset={-70} duration={50}>.contact()</Link>
             </Grid>
 
             <a href={require("../Resources/Lokesh-Choudhary-Resume.pdf")} download="Lokesh-Choudhary-Resume">

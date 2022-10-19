@@ -8,7 +8,7 @@ import { ChakraProvider } from '@chakra-ui/react'
 import { extendTheme } from '@chakra-ui/react'
 // 2. Update the breakpoints as key-value pairs
 const breakpoints = {
-  base:"280px",
+  base:"260px",
   sm: '500px',
   md: '768px',
   lg: '960px'

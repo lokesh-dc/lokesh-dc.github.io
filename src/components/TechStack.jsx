@@ -23,6 +23,10 @@ export default function Skills () {
                     <Text>React</Text>
                 </Box>
                 <Box>
+                    <Img src={require("../Resources/icons/Tech/BW/redux.png")} alt="" />
+                    <Text>React Redux</Text>
+                </Box>
+                <Box>
                     <Img src={require("../Resources/icons/Tech/BW/chakrabw.png")} alt="" />
                     <Text>Chakra UI</Text>
                 </Box>

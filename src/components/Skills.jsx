@@ -25,6 +25,10 @@ export default function TechStack() {
                     <Text>React</Text>
                 </Flex>
                 <Flex>
+                    <Img src={require("../Resources/icons/Tech/BW/redux.png")} alt="" />
+                    <Text>React Redux</Text>
+                </Flex>
+                <Flex>
                     <Img src={require("../Resources/icons/Tech/BW/chakrabw.png")} alt="" />
                     <Text>Chakra UI</Text>
                 </Flex>
@@ -60,7 +64,7 @@ export default function TechStack() {
             <Text className="subHead">Communication Skills</Text>
                 <Flex >
                     <Img src={require("../Resources/icons/cs/writting.png")} alt="" />
-                    <Text>Writting</Text>
+                    <Text>Writing</Text>
                 </Flex>
                 <Flex>
                     <Img src={require("../Resources/icons/cs/collab.png")} alt="" />
