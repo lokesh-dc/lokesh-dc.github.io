@@ -11,10 +11,10 @@ import TechStack from './components/TechStack';
 
 function App() {
   return (
-    <Grid px={{base:"15px",sm:"30px", md:"100px", lg:"150px"}} className="App" >
+    <Grid px={{base:"10px",sm:"20px", md:"20px", lg:"150px"}} className="App" >
       <Grid>
         <Navbar />
-        <Grid gap={{base:"20px", sm:"20px", md:"60px", lg:"100px"}}>
+        <Grid gap={{base:"20px", sm:"20px", md:"60px", lg:"100px"}} id="main-body">
           <About />
           <TechStack />
           <Skills />

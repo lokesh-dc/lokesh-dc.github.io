@@ -8,18 +8,17 @@ import { ChakraProvider } from '@chakra-ui/react'
 import { extendTheme } from '@chakra-ui/react'
 // 2. Update the breakpoints as key-value pairs
 const breakpoints = {
-  sm: '280px',
+  base:"280px",
+  sm: '500px',
   md: '768px',
-  lg: '960px',
-  xl: '1200px',
-  '2xl': '1536px',
+  lg: '960px'
 }
 // 3. Extend the theme
 export const theme = extendTheme({ breakpoints })
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <ChakraProvider >
+  <ChakraProvider theme={theme}>
     <App />
   </ChakraProvider>
 );

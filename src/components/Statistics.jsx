@@ -22,7 +22,7 @@ export default function Statistics () {
                         <StatisticsCard key={index} details={i}/>
                     ))
                 }
-                <Text pos="absolute" top={0} left={"20%"} id="background-text" letterSpacing="10px" fontSize={{base: "0rem", sm:"0rem", md:"8rem", lg:"10rem" }}> STATISTICS</Text>
+                <Text pos="absolute" top={0} left={{sm:"10%",md:"12%",lg:"20%"}} id="background-text" letterSpacing="10px" fontSize={{base: "0rem", sm:"0rem", md:"8rem", lg:"10rem" }}> STATISTICS</Text>
             </Grid>
         </Grid>
     )

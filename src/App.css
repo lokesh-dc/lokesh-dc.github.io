@@ -10,6 +10,7 @@
   width:100%
 }
 
+
 #navbar > a.active ,
 #navbar > a:hover{
   text-decoration: 3px underline;
