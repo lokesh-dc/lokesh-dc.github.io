@@ -25,10 +25,14 @@ const ProjectDetails = [
 
 export default function Projects () {
     return (
-        <Grid id="projects-section" >
+        <Grid id="projects-section" 
+            w={{sm:"80%",base:"80%", md:"90%", lg:"100%"}} margin="auto"
+        >
             <Heading title="PROJECTS" />
 
-            <Grid id="projects" templateColumns={{base:"1fr", sm: "1fr",md:"repeat(2,1fr)",lg:"repeat(3,1fr)" }} gap="50px" pos="relative" w={{base:"70%", sm:"70%",md:"100%"}} ml={{base:"3%", sm:"3%", md:0, lg:0}}>
+            <Grid id="projects" templateColumns={{base:"1fr", sm: "1fr",md:"repeat(2,1fr)",lg:"repeat(3,1fr)" }} gap="50px" pos="relative" 
+            // w={{base:"70%", sm:"70%",md:"100%"}} ml={{base:"3%", sm:"3%", md:0, lg:0}}
+            >
                 <Grid templateColumns={{base:"1fr",sm:"1fr",md:"1fr", lg:"1fr" }}>
                     <img src={require("../Resources/Projects/monsterIndia.png")} alt=""/>
                     <ProjectCard key={0} details={ProjectDetails[0]} />
@@ -37,7 +41,7 @@ export default function Projects () {
                             <button variant="outline" className="gitCode">VIEW CODE</button>
                         </a>
                         <a href="https://joyful-elf-e0863a.netlify.app/" target="_blank" rel="noopener noreferrer">
-                            <button className="live" >LIVE PROJECT</button>
+                            <button className="live" >LIVE</button>
                         </a>
                     </Grid>
 
@@ -52,7 +56,7 @@ export default function Projects () {
                             <button variant="outline" className="gitCode" >VIEW CODE</button>
                         </a>
                         <a href="https://lovely-melba-cbde6f.netlify.app/" target="_blank" rel="noopener noreferrer">
-                            <button className="live">LIVE PROJECT</button>
+                            <button className="live">LIVE</button>
                         </a>
                     </Grid>
                 </Grid>
@@ -65,7 +69,7 @@ export default function Projects () {
                             <button variant="outline" className="gitCode" >VIEW CODE</button>
                         </a>
                         <a href="https://loquacious-paletas-d45019.netlify.app/" target="_blank" rel="noopener noreferrer">
-                            <button className="live">LIVE PROJECT</button>
+                            <button className="live">LIVE</button>
                         </a>
                     </Grid>
                 </Grid>

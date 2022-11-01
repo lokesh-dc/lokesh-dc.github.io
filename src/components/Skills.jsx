@@ -3,9 +3,11 @@ import Heading from "./Heading";
 
 export default function TechStack() {
     return(
-        <Grid id="skills-section" >
+        <Grid id="skills-section"
+        w={{sm:"90%",base:"80%", md:"90%", lg:"100%"}} margin="auto"
+        >
         <Heading  title="SKILLS" />
-        <Grid p="20px"  id="skills" templateColumns={{base:"1fr",sm:"repeat(1,1fr)", md:"repeat(2,1fr)", lg:"repeat(4,1fr)"}} w={{base:"70%", sm:"70%",md:"100%"}} ml={{base:"3%", sm:"3%", md:0, lg:0}} gap="30px" textAlign="left" >
+        <Grid p="20px"  id="skills" templateColumns={{base:"1fr",sm:"repeat(1,1fr)", md:"repeat(2,1fr)", lg:"repeat(4,1fr)"}}  gap="30px" textAlign="left" >
             <Grid gap={10} >
                 <Text className="subHead">Frontend Development</Text>
                 <Flex>

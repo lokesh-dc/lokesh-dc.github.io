@@ -12,10 +12,12 @@ let statisticsDetails = [
 
 export default function Statistics () {
     return (
-        <Grid p="10px">
+        <Grid p="10px"
+            w={{sm:"80%",base:"80%", md:"90%", lg:"100%"}} margin="auto"
+        >
             <Heading title="Statistics"/>
-            <Grid templateColumns={{base:"", sm:"repeat(2,1fr)", md:"repeat(4,1fr)", lg:"repeat(4,1fr)"}} id="statistics" gap="40px" className="bgtext"   py="50px"
-                pos="relative" w={{base:"70%", sm:"70%",md:"100%"}} ml={{base:"3%", sm:"3%", md:0, lg:0}}
+            <Grid templateColumns={{base:"", sm:"repeat(2,1fr)", md:"repeat(4,1fr)", lg:"repeat(4,1fr)"}} id="statistics" gap="10px" className="bgtext"   py="10px"
+                pos="relative" 
             >
                 {
                     statisticsDetails.map((i, index)=>(

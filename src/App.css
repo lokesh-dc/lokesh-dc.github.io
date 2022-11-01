@@ -7,7 +7,6 @@
 .App {
   text-align: center;
   font-family: 'Rubik', sans-serif;
-  width:100%;
   padding: 0;
   margin: 0;
 }
@@ -32,7 +31,7 @@
   font-family: 'Shadows Into Light', cursive;
   letter-spacing: 2px;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 #arrow{
   display: block;
@@ -93,24 +92,22 @@
 
 
 #techStack > div{
-
   padding: 20px;
   border-right:1px solid rgba(0, 0, 0, 0.116);
   border-bottom:1px solid rgba(0, 0, 0, 0.116);
-
 }
 
 #techStack img{
   display: block;
   margin: auto;
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
 }
 
 
 #techStack p{
   color: black;
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding: 10px 0;
   letter-spacing: 1px;
   font-family: 'Special Elite', cursive;
@@ -236,8 +233,8 @@
   margin-right: 10px;
 }
 
-@media screen and (min-width: 480px) {
+/* @media screen and (min-width: 480px) {
   .App {
     width: 100%;
   }
-}
+} */

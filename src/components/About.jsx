@@ -6,12 +6,14 @@ import SocialMediaIcons from "./SocialMediaIcons"
 export default function About() {
     return (
         <Grid id="about-section">
-            <Grid templateColumns={{base:"1fr",sm:"1fr",md:"1fr", lg:"2fr 1fr"}} 
+            <Grid 
+                templateColumns={{base:"1fr",sm:"1fr",md:"1fr", lg:"2fr 1fr"}} 
                 p={{base:"10px",sm:"10px", md:5,lg:10}} 
                 gap={{base:"10px", sm:"20px"}} mt="20px"  
                 textAlign="left" 
                 justifyContent="center" 
                 alignItems="center"
+                w={{sm:"90%",base:"80%", md:"90%", lg:"100%"}} margin="auto"
             >
                 <Intro />
                 <Profile />

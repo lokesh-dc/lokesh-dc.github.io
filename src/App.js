@@ -11,10 +11,9 @@ import TechStack from './components/TechStack';
 
 function App() {
   return (
-    <Grid px={{base:"10px",sm:"20px", md:"20px", lg:"150px"}} className="App" >
-      <Grid>
+    <Grid  className="App" alignItems="center" justifyContent={"center"} gap={{base:"20px", sm:"20px", md:"60px", lg:"100px"}} px={{base:0, sm:0, md:"100px", lg:"150px"}}>
         <Navbar />
-        <Grid gap={{base:"20px", sm:"20px", md:"60px", lg:"100px"}} id="main-body">
+        {/* <Grid  id="main-body" > */}
           <About />
           <TechStack />
           <Skills />
@@ -22,8 +21,7 @@ function App() {
           <Statistics />
           <GitCalendar />
           <Contact />
-        </Grid>
-      </Grid>
+        {/* </Grid> */}
     </Grid>
   );
 }
