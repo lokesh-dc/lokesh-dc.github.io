@@ -23,7 +23,7 @@ export default function Navbar() {
                 <Link to="contact-section" spy={true} smooth={true} offset={-70} duration={50}>.contact()</Link>
             </Grid>
 
-            <a href={require("../Resources/Lokesh-Choudhary-Resume.pdf")} download="Lokesh-Choudhary-Resume">
+            <a href={require("../Resources/Resume.pdf")} download="Lokesh-Choudhary-Resume">
                 <Button  display={{base:"none", sm:"none", lg:"block"}} variant="outline" id="resume" _hover={{bg:"black", color:"white"}} letterSpacing={1}>RESUME</Button>
             </a>
         </Grid>
