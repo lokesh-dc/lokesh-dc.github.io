@@ -55,7 +55,6 @@
 }
 
 .heading {
-  font-size: 3rem;
   color: #f3f3f3;
   text-transform: uppercase;
   text-align: left;
@@ -68,7 +67,6 @@
   color: black;
   position: absolute;
   bottom: 15px;
-  font-size: 2.5rem;
   left: 0px;
   letter-spacing: 2px ;
 }
@@ -86,9 +84,7 @@
   color: white;
   cursor: pointer;
 }
-#techStack{
-  padding: 2%;
-}
+
 
 #contact-icons  img {
   width:  30px;
@@ -133,13 +129,15 @@
 #skills > div > div{
   font-size: 1rem;
   align-items: center;
-  gap: 5%;
   border: 1px solid rgba(0, 0, 0, 0.255);
   border-radius: 5px;
   padding: 5px 20px;
   height: 70px;
-  grid-auto-flow: column;
+  /* grid-auto-flow: column; */
 }
+#skills > div > div> p{
+  margin-left: 10px;
+}   
 #skills > div > div:hover{
   background-color: #f3f3f3;
   cursor: pointer;
@@ -232,10 +230,10 @@
   height: 50px;
 }
 
-
 #contact-list img{
   width: 30px;
   height: 30px;
+  margin-right: 10px;
 }
 
 @media screen and (min-width: 480px) {

@@ -15,14 +15,14 @@ export default function Statistics () {
         <Grid p="10px">
             <Heading title="Statistics"/>
             <Grid templateColumns={{base:"", sm:"repeat(2,1fr)", md:"repeat(4,1fr)", lg:"repeat(4,1fr)"}} id="statistics" gap="40px" className="bgtext"   py="50px"
-                pos="relative"
+                pos="relative" w={{base:"70%", sm:"70%",md:"100%"}} ml={{base:"3%", sm:"3%", md:0, lg:0}}
             >
                 {
                     statisticsDetails.map((i, index)=>(
                         <StatisticsCard key={index} details={i}/>
                     ))
                 }
-                <Text pos="absolute" top={0} left={{sm:"10%",md:"12%",lg:"20%"}} id="background-text" letterSpacing="10px" fontSize={{base: "0rem", sm:"0rem", md:"8rem", lg:"10rem" }}> STATISTICS</Text>
+                <Text pos="absolute" top={0} left={{sm:"10%",md:"12%",lg:"20%"}} id="background-text" letterSpacing="10px" fontSize={{base: "0rem", sm:"0rem", md:"4rem", lg:"6rem" }}> STATISTICS</Text>
             </Grid>
         </Grid>
     )

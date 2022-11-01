@@ -4,8 +4,8 @@ export default function Skills () {
     return (
         <Grid id="tech-section">
         <Heading title="TECHNICAL SKILLS"/>
-        <Grid mt="50px">
-            <Grid templateColumns={{base:"repeat(1,1fr)", sm:"repeat(1,1fr)", md:"repeat(3,1fr)", lg:"repeat(5,1fr)"}}  justifyContent="space-around" id="techStack">
+        <Grid w={{base:"70%", sm:"70%",md:"100%"}} ml={{base:"3%", sm:"3%", md:0, lg:0}}>
+            <Grid templateColumns={{base:"repeat(1,1fr)", sm:"repeat(2,1fr)", md:"repeat(3,1fr)", lg:"repeat(5,1fr)"}}  justifyContent="space-around" id="techStack">
                 <Box>
                     <Img src={require("../Resources/icons/Tech/BW/htmlbw.png")} alt="" />
                     <Text>HTML5</Text>

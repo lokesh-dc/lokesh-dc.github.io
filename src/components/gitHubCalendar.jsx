@@ -15,9 +15,9 @@ export default function GitCalendar (){
     grade0: "#ecd9fc"
   };
   return (
-    <Grid>
+    <Grid >
         <Heading title="days I Code" />
-      <Grid className="section" p={20}  >
+      <Grid className="section" p={20} w={{base:"70%", sm:"70%",md:"100%"}} ml={{base:"3%", sm:"3%", md:0, lg:0}} >
         <Githubcalendar
           username="lokesh-dc"
           blockSize={25}

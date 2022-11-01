@@ -11,7 +11,7 @@ const breakpoints = {
   base:"260px",
   sm: '500px',
   md: '768px',
-  lg: '960px'
+  lg: '1008px'
 }
 // 3. Extend the theme
 export const theme = extendTheme({ breakpoints })

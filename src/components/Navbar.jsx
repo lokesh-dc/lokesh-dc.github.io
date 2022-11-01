@@ -23,7 +23,7 @@ export default function Navbar() {
             </Grid>
 
             <a href={require("../Resources/Lokesh-Choudhary-Resume.pdf")} download="Lokesh-Choudhary-Resume">
-                <Button variant="outline" id="resume" _hover={{bg:"black", color:"white"}} letterSpacing={1}>RESUME</Button>
+                <Button  display={{base:"none", sm:"none", lg:"block"}} variant="outline" id="resume" _hover={{bg:"black", color:"white"}} letterSpacing={1}>RESUME</Button>
             </a>
         </Grid>
     )

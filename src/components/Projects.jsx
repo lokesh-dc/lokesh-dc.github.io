@@ -28,7 +28,7 @@ export default function Projects () {
         <Grid id="projects-section" >
             <Heading title="PROJECTS" />
 
-            <Grid id="projects" templateColumns={{base:"1fr", sm: "1fr",md:"repeat(2,1fr)",lg:"repeat(3,1fr)" }} gap="50px" pos="relative">
+            <Grid id="projects" templateColumns={{base:"1fr", sm: "1fr",md:"repeat(2,1fr)",lg:"repeat(3,1fr)" }} gap="50px" pos="relative" w={{base:"70%", sm:"70%",md:"100%"}} ml={{base:"3%", sm:"3%", md:0, lg:0}}>
                 <Grid templateColumns={{base:"1fr",sm:"1fr",md:"1fr", lg:"1fr" }}>
                     <img src={require("../Resources/Projects/monsterIndia.png")} alt=""/>
                     <ProjectCard key={0} details={ProjectDetails[0]} />
