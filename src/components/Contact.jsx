@@ -4,7 +4,7 @@ import SocialMediaIcons from "./SocialMediaIcons";
 
 export default function Contact() {
     return (
-        <Grid pos="relative" id="contact-section" mb="100px" w={{sm:"80%",base:"80%", md:"90%", lg:"100%"}} margin="auto">
+        <Grid pos="relative" id="contact-section" m="100px auto" w={{sm:"80%",base:"80%", md:"90%", lg:"100%"}}>
             <Heading title={"CONTACT ME"} />
             <Grid  >
                 <Text>Get in Touch</Text>

@@ -13,7 +13,6 @@ function App() {
   return (
     <Grid  className="App" alignItems="center" justifyContent={"center"} gap={{base:"20px", sm:"20px", md:"60px", lg:"100px"}} px={{base:0, sm:0, md:"100px", lg:"150px"}}>
         <Navbar />
-        {/* <Grid  id="main-body" > */}
           <About />
           <TechStack />
           <Skills />
@@ -21,7 +20,6 @@ function App() {
           <Statistics />
           <GitCalendar />
           <Contact />
-        {/* </Grid> */}
     </Grid>
   );
 }
