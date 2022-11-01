@@ -7,7 +7,7 @@ export default function TechStack() {
         w={{sm:"90%",base:"80%", md:"90%", lg:"100%"}} margin="auto"
         >
         <Heading  title="SKILLS" />
-        <Grid p="20px"  id="skills" templateColumns={{base:"1fr",sm:"repeat(1,1fr)", md:"repeat(2,1fr)", lg:"repeat(4,1fr)"}}  gap="30px" textAlign="left" >
+        <Grid   id="skills" templateColumns={{base:"1fr",sm:"1fr", md:"repeat(2,1fr)", lg:"repeat(4,1fr)"}}  gap="10px" textAlign="left" >
             <Grid gap={10} >
                 <Text className="subHead">Frontend Development</Text>
                 <Flex>
@@ -64,10 +64,6 @@ export default function TechStack() {
             </Grid>
             <Grid gap={10}>
             <Text className="subHead">Communication Skills</Text>
-                <Flex >
-                    <Img src={require("../Resources/icons/cs/writting.png")} alt="" />
-                    <Text>Writing</Text>
-                </Flex>
                 <Flex>
                     <Img src={require("../Resources/icons/cs/collab.png")} alt="" />
                     <Text>Collaboration</Text>
@@ -75,10 +71,6 @@ export default function TechStack() {
                 <Flex>
                     <Img src={require("../Resources/icons/cs/active.png")} alt="" />
                     <Text>Active Listening</Text>
-                </Flex>
-                <Flex>
-                    <Img src={require("../Resources/icons/cs/empathy.png")} alt="" />
-                    <Text>Empathy</Text>
                 </Flex>
             </Grid>
         </Grid>

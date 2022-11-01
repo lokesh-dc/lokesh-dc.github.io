@@ -5,7 +5,7 @@ export default function ProjectCard({details}) {
             <Grid gap="2px" pos="relative">
                 <Text fontSize="2rem">{details.title} - Clone</Text>
                 <Text>{details.desc}</Text>
-                <Text> FEATURES : </Text>
+                {/* <Text> FEATURES : </Text>
                 <List>
                     {
                         details.features.map((f,index)=>(
@@ -14,7 +14,7 @@ export default function ProjectCard({details}) {
                                 </ListItem>
                         ))
                     }
-                </List>
+                </List> */}
                 <Text>TECH STACK: </Text>
                 <Flex className="tech" paddingLeft="15px">
                     {
