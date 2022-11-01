@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.09e7cdc0.css",
-    "main.js": "/static/js/main.78ea1a68.js",
+    "main.js": "/static/js/main.6f321540.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/beautyBebo.png": "/static/media/beautyBebo.c9eb4406618b87919a69.png",
     "static/media/ndtv.png": "/static/media/ndtv.b0394a0907cd961a5ffe.png",
     "static/media/monsterIndia.png": "/static/media/monsterIndia.d77c5065bc3e815ed16b.png",
-    "static/media/Lokesh-Choudhary-Resume.pdf": "/static/media/Lokesh-Choudhary-Resume.eedf4fa42de3312f9d30.pdf",
     "static/media/profile.jpg": "/static/media/profile.7ce51cdc1baef616f122.jpg",
+    "static/media/Resume.pdf": "/static/media/Resume.61c177e3a541988cc754.pdf",
     "static/media/chakrabw.png": "/static/media/chakrabw.ea1eda56b69d993f1e4a.png",
     "static/media/mongobw.png": "/static/media/mongobw.7f44ed7984e85126a507.png",
     "static/media/active.png": "/static/media/active.d8d9fa3e15cf0ffd3204.png",
@@ -19,11 +19,11 @@
     "static/media/writting.png": "/static/media/writting.0f46e2728eb984e21ce8.png",
     "index.html": "/index.html",
     "main.09e7cdc0.css.map": "/static/css/main.09e7cdc0.css.map",
-    "main.78ea1a68.js.map": "/static/js/main.78ea1a68.js.map",
+    "main.6f321540.js.map": "/static/js/main.6f321540.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.09e7cdc0.css",
-    "static/js/main.78ea1a68.js"
+    "static/js/main.6f321540.js"
   ]
 }
