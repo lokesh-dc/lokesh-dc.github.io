@@ -2,6 +2,7 @@ import { Grid } from "@chakra-ui/react";
 import React from "react";
 import Githubcalendar from "react-github-calendar";
 import Heading from "./Heading";
+import Stats from "./Stats";
 
 
 export default function GitCalendar (){
@@ -15,17 +16,16 @@ export default function GitCalendar (){
     grade0: "#ecd9fc"
   };
   return (
-    <Grid w={{sm:"80%",base:"80%", md:"90%", lg:"100%"}} margin="auto" >
-        <Heading title="days I Code" />
-        {/* <Grid jus className="section" p={20} > */}
+    <Grid w={{sm:"80%",base:"80%", md:"90%", lg:"100%"}} margin="auto" gap="30" >
+        <Heading title="Coding Stats" />
           <Githubcalendar
             username="lokesh-dc"
             blockSize={25}
             blockMargin={6}
             theme={colourTheme}
             fontSize={10}
-          />
-      {/* </Grid> */}
+            />
+            <Stats/>
     </Grid>
   );
 };

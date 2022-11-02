@@ -39,7 +39,7 @@ export default function Projects () {
             <Heading title="PROJECTS" />
 
 
-            <Grid id="projects" templateColumns={{base:"1fr", sm: "1fr",md:"repeat(2,1fr)",lg:"repeat(2,1fr)" }} gap="50px" pos="relative" >
+            <Grid id="projects" templateColumns={{base:"1fr", sm: "1fr",md:"repeat(2,1fr)",lg:"repeat(4,1fr)" }} gap="50px" pos="relative" >
                 <Grid>
                         <img src={require("../Resources/Projects/timecamp.png")} alt=""/>
                         <ProjectCard key={0} details={ProjectDetails[0]} />

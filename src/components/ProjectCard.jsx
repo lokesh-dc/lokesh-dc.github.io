@@ -3,8 +3,8 @@ import { Grid, Text, Flex, Box, List, ListItem} from "@chakra-ui/react";
 export default function ProjectCard({details}) {
     return (
             <Grid gap="2px" pos="relative">
-                <Text fontSize="2rem">{details.title} - Clone</Text>
-                <Text>{details.desc}</Text>
+                <Text fontSize={{base:"2rem", sm:"2rem", md:"1rem", lg:"1rem" }} fontWeight="bold">{details.title} - Clone</Text>
+                <Text fontSize={{base:"1rem", sm:"1rem", md:"0.8rem", lg:"0.8rem" }}>{details.desc}</Text>
                 {/* <Text> FEATURES : </Text>
                 <List>
                     {
@@ -16,7 +16,7 @@ export default function ProjectCard({details}) {
                     }
                 </List> */}
                 <Text>TECH STACK: </Text>
-                <Flex className="tech" paddingLeft="15px">
+                <Flex className="tech" >
                     {
                         details.tech.map((t, index)=>(
                             <Box key={index} >{t} </Box>
