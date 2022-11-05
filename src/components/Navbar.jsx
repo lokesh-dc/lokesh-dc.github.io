@@ -4,7 +4,7 @@ export default function Navbar() {
     return (
         <Grid 
             templateColumns={{base:"1fr",sm:"1fr", md:"1fr", lg:"0.2fr 0.5fr 0.2fr"}} 
-            justifyContent="space-between" mt={{base:0, lg:"30px"}} p={3}
+            justifyContent="space-between"  p={3}
             gap={{base:"10px", sm:"10px"}}
             alignItems="center" 
             pos="sticky" top="0" bg="white" zIndex="100" 

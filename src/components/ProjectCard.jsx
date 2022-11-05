@@ -15,7 +15,7 @@ export default function ProjectCard({details}) {
                         ))
                     }
                 </List> */}
-                <Text>TECH STACK: </Text>
+                <Text fontSize="0.8rem">TECH STACK: </Text>
                 <Flex className="tech" >
                     {
                         details.tech.map((t, index)=>(
@@ -25,7 +25,7 @@ export default function ProjectCard({details}) {
                 </Flex>
                 
 
-                <Box pos="absolute" top="0" right="0" color="green" fontWeight="bold"  p="2px 6px"> LIVE</Box>
+                {/* <Box pos="absolute" top="0" right="0" color="green" fontWeight="bold"  p="2px 6px"> LIVE</Box> */}
 
 
             </Grid>

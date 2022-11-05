@@ -57,7 +57,7 @@ export default function Projects () {
                     <img src={require("../Resources/Projects/monsterIndia.png")} alt=""/>
                     <ProjectCard key={0} details={ProjectDetails[1]} />
                     <Grid templateColumns="repeat(2,1fr)" m="10px" gap="10px" className="projectbuttons" >
-                        <a href="https://github.com/lokesh-dc/boss-development-1619/tree/master/monster_india_clone" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/lokesh-dc/boss-development-1619" target="_blank" rel="noopener noreferrer">
                             <button variant="outline" className="gitCode">CODE</button>
                         </a>
                         <a href="https://joyful-elf-e0863a.netlify.app/" target="_blank" rel="noopener noreferrer">
