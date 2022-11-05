@@ -25,7 +25,6 @@ export default function GitCalendar (){
             theme={colourTheme}
             fontSize={10}
             />
-            <Stats/>
     </Grid>
   );
 };
