@@ -2,7 +2,6 @@ import { Grid } from "@chakra-ui/react";
 import React from "react";
 import Githubcalendar from "react-github-calendar";
 import Heading from "./Heading";
-import Stats from "./Stats";
 
 
 export default function GitCalendar (){

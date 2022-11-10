@@ -1,15 +1,15 @@
-import {Grid, Text } from "@chakra-ui/react";
+import {Grid } from "@chakra-ui/react";
 import Heading from "./Heading";
-import StatisticsCard from "./StatisticsCard";
+// import StatisticsCard from "./StatisticsCard";
 import Stats from "./Stats";
 
 
-let statisticsDetails = [
-    {hrs:1200, title: "Hours of Full Stack Coding"},
-    {hrs:323, title: "Git Commits"},
-    {hrs:100, title: "Hours of Soft Skill Sessions"},
-    {hrs:4, title: "Full Stack projects done"},
-]
+// let statisticsDetails = [
+//     {hrs:1200, title: "Hours of Full Stack Coding"},
+//     {hrs:323, title: "Git Commits"},
+//     {hrs:100, title: "Hours of Soft Skill Sessions"},
+//     {hrs:4, title: "Full Stack projects done"},
+// ]
 
 export default function Statistics () {
     return (

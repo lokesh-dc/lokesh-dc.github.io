@@ -28,7 +28,7 @@ export default function TechStack() {
                 </Flex>
                 <Flex>
                     <Img src={require("../Resources/icons/Tech/BW/redux.png")} alt="" />
-                    <Text>React Redux</Text>
+                    <Text>Redux</Text>
                 </Flex>
                 <Flex>
                     <Img src={require("../Resources/icons/Tech/BW/chakrabw.png")} alt="" />
@@ -57,7 +57,7 @@ export default function TechStack() {
             <Grid gap={10}>
             <Text className="subHead">Data Structures & Algorithm</Text>
                 <Flex >
-                    <Img src={require("../Resources/icons/Tech/BW/htmlbw.png")} alt="" />
+                    <Img src={require("../Resources/icons/cs/problem.png")} alt="" />
                     <Text>Problem Solving</Text>
                 </Flex>
 

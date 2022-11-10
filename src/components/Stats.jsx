@@ -1,4 +1,4 @@
-import { Flex, Grid, Text } from "@chakra-ui/react";
+import { Flex, Grid } from "@chakra-ui/react";
 
 export default function Stats() {
 
