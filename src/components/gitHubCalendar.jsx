@@ -2,7 +2,7 @@ import { Grid } from "@chakra-ui/react";
 import React from "react";
 import Githubcalendar from "react-github-calendar";
 import Heading from "./Heading";
-
+import ReactToolTip from "react-tooltip"
 
 export default function GitCalendar (){
   const colourTheme = {
@@ -23,7 +23,9 @@ export default function GitCalendar (){
             blockMargin={6}
             theme={colourTheme}
             fontSize={10}
-            />
+            >
+              <ReactToolTip delayShow-{20} />
+            </Githubcalendar>
     </Grid>
   );
 };
