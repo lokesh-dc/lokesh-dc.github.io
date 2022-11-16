@@ -24,7 +24,7 @@ export default function GitCalendar (){
             theme={colourTheme}
             fontSize={10}
             >
-              <ReactToolTip delayShow-{20} />
+              <ReactToolTip delayShow-{10} />
             </Githubcalendar>
     </Grid>
   );
