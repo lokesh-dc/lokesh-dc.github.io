@@ -1,8 +1,8 @@
 import { Box, Text, Img } from "@chakra-ui/react"
 
 export default function Profile () {
-    let str = "<img>" 
-    let str2 = "</img>"
+    let str = "<Profile>" 
+    let str2 = "</Profile>"
     return (
         <Box  id="profile" pos="relative"  >
             <Img src={require("../Resources/profile.jpg")} 
