@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.6313f6f0.css",
-    "main.js": "/static/js/main.f55f0f9a.js",
+    "main.js": "/static/js/main.fb287d81.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/beautyBebo.png": "/static/media/beautyBebo.c9eb4406618b87919a69.png",
     "static/media/timecamp.png": "/static/media/timecamp.5b9c69de600cab137d7d.png",
     "static/media/ndtv.png": "/static/media/ndtv.b0394a0907cd961a5ffe.png",
     "static/media/monsterIndia.png": "/static/media/monsterIndia.d77c5065bc3e815ed16b.png",
     "static/media/profile.jpg": "/static/media/profile.bd4a75998c811d882881.jpg",
-    "static/media/Resume.pdf": "/static/media/Resume.61c177e3a541988cc754.pdf",
+    "static/media/Resume.pdf": "/static/media/Resume.3de6d514dcecbc4d91bd.pdf",
     "static/media/chakrabw.png": "/static/media/chakrabw.ea1eda56b69d993f1e4a.png",
     "static/media/mongobw.png": "/static/media/mongobw.7f44ed7984e85126a507.png",
     "static/media/active.png": "/static/media/active.d8d9fa3e15cf0ffd3204.png",
@@ -23,11 +23,11 @@
     "static/media/git.png": "/static/media/git.26acde00c5378f1fcb46.png",
     "index.html": "/index.html",
     "main.6313f6f0.css.map": "/static/css/main.6313f6f0.css.map",
-    "main.f55f0f9a.js.map": "/static/js/main.f55f0f9a.js.map",
+    "main.fb287d81.js.map": "/static/js/main.fb287d81.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6313f6f0.css",
-    "static/js/main.f55f0f9a.js"
+    "static/js/main.fb287d81.js"
   ]
 }
