@@ -1,4 +1,4 @@
-import { Grid} from "@chakra-ui/react";
+import { Flex, Grid, Text} from "@chakra-ui/react";
 import Heading from "./Heading";
 import ProjectCard from "./ProjectCard";
 
@@ -31,16 +31,43 @@ const ProjectDetails = [
         tech : ["HTML", "CSS", "JavaScript", "API"],
         features : ["Search, Sorting & Filtering functionalities"]
     },
+    {
+        title : "Medium.com",
+        desc:"Interactive blog website for users to comment blog and write thier own blog as well.",
+        tech :['HTML', 'CSS', 'JavaScript', 'React', 'Redux', 'Node Js', 'Express JS', 'JWT', 'MongoDB'],
+        features : ['User Login & Signup functionality', 'Ineract with blogs or create your own']
+    },
+    {
+        title: "Weather App",
+        desc : "An App to get weather for your hometown or search for place you may plan to travel.",
+        tech :[ 'HTML', 'CSS', 'JavaScript', 'API']
+    }
 ]
 
 export default function Projects () {
     return (
-        <Grid id="projects-section" w={{sm:"80%",base:"80%", md:"90%", lg:"100%"}} margin="auto">
+        <Grid id="projects-section" w={{sm:"80%",base:"80%", md:"90%", lg:"100%"}} margin="auto" >
             <Heading title="PROJECTS" />
 
 
-            <Grid id="projects" templateColumns={{base:"1fr", sm: "1fr",md:"repeat(2,1fr)",lg:"repeat(4,1fr)" }} gap="50px" pos="relative" >
-                <Grid>
+            <Grid id="projects" templateColumns={{base:"1fr", sm: "1fr",md:"repeat(2,1fr)",lg:"repeat(4,1fr)" }} gap="50px" pos="relative" py={{base:5, md:20}} >
+                    
+                <Grid pos={"relative"}>
+                    <Text pos={"absolute"} fontSize="3rem" top={"-10"} left={{base:"0",lg:"-10"}} >01</Text>
+                    <img src={require("../Resources/Projects/blog.png")} alt="" />
+                    <ProjectCard key={3} details={ProjectDetails[4]} />
+                    <Grid templateColumns="1fr 1fr" m="10px" gap="10px" className="projectbuttons">
+                        <a href="https://github.com/lokesh-dc/Blog-App" target="_blank" rel="noopener noreferrer">
+                            <button variant="outline" className="gitCode" >CODE</button>
+                        </a>
+                        <a href="https://idyllic-concha-85c2f8.netlify.app/" target="_blank" rel="noopener noreferrer">
+                            <button className="live">LIVE</button>
+                        </a>
+                    </Grid>
+                </Grid>
+
+                <Grid pos={"relative"}>
+                    <Text pos={"absolute"} fontSize="3rem" top={"-10"} left={{base:"0",lg:"-10"}} >02</Text>
                         <img src={require("../Resources/Projects/timecamp.png")} alt=""/>
                         <ProjectCard key={0} details={ProjectDetails[0]} />
                         <Grid templateColumns="repeat(2,1fr)" m="10px" gap="10px" className="projectbuttons" >
@@ -53,9 +80,10 @@ export default function Projects () {
                         </Grid>
                     </Grid>
                 
-                <Grid >
+                    <Grid pos={"relative"}>
+                    <Text pos={"absolute"} fontSize="3rem" top={"-10"} left={{base:"0",lg:"-10"}} >03</Text>
                     <img src={require("../Resources/Projects/monsterIndia.png")} alt=""/>
-                    <ProjectCard key={0} details={ProjectDetails[1]} />
+                    <ProjectCard key={1} details={ProjectDetails[1]} />
                     <Grid templateColumns="repeat(2,1fr)" m="10px" gap="10px" className="projectbuttons" >
                         <a href="https://github.com/lokesh-dc/boss-development-1619" target="_blank" rel="noopener noreferrer">
                             <button variant="outline" className="gitCode">CODE</button>
@@ -66,22 +94,24 @@ export default function Projects () {
                     </Grid>
                 </Grid>
 
-                <Grid>
+                <Grid pos={"relative"}>
+                    <Text pos={"absolute"} fontSize="3rem" top={"-10"} left={{base:"0",lg:"-10"}} >04</Text>
                     <img src={require("../Resources/Projects/beautyBebo.png")} alt="" />
-                    <ProjectCard key={1} details={ProjectDetails[2]} />
+                    <ProjectCard key={2} details={ProjectDetails[2]} />
                     <Grid templateColumns="1fr 1fr" m="10px" gap="10px" className="projectbuttons">
                         <a href="https://github.com/lokesh-dc/frightening-sidewalk-3271" target="_blank" rel="noopener noreferrer">
                             <button variant="outline" className="gitCode" >CODE</button>
                         </a>
-                        <a href="https://lovely-melba-cbde6f.netlify.app/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://bright-puppy-c195ee.netlify.app/" target="_blank" rel="noopener noreferrer">
                             <button className="live">LIVE</button>
                         </a>
                     </Grid>
                 </Grid>
 
-                <Grid>
+                <Grid pos={"relative"}>
+                    <Text pos={"absolute"} fontSize="3rem" top={"-10"} left={{base:"0",lg:"-10"}}>05</Text>
                     <img src={require("../Resources/Projects/ndtv.png")} alt="" />
-                    <ProjectCard key={2} details={ProjectDetails[3]} />
+                    <ProjectCard key={3} details={ProjectDetails[3]} />
                     <Grid templateColumns="1fr 1fr" m="10px" gap="10px" className="projectbuttons">
                         <a href="https://github.com/lokesh-dc/Ndtv-clone" target="_blank" rel="noopener noreferrer">
                             <button variant="outline" className="gitCode" >CODE</button>
@@ -92,6 +122,19 @@ export default function Projects () {
                     </Grid>
                 </Grid>
 
+                <Grid pos={"relative"}>
+                    <Text pos={"absolute"} fontSize="3rem" top={"-10"} left={{base:"0",lg:"-10"}} >06</Text>
+                    <img src={require("../Resources/Projects/weather.png")} alt="" />
+                    <ProjectCard key={3} details={ProjectDetails[5]} />
+                    <Grid templateColumns="1fr 1fr" m="10px" gap="10px" className="projectbuttons">
+                        <a href="https://github.com/lokesh-dc/Weather-App" target="_blank" rel="noopener noreferrer">
+                            <button variant="outline" className="gitCode" >CODE</button>
+                        </a>
+                        <a href="https://hilarious-alpaca-f7c2a1.netlify.app/" target="_blank" rel="noopener noreferrer">
+                            <button className="live">LIVE</button>
+                        </a>
+                    </Grid>
+                </Grid>
             </Grid>
         </Grid>
     )

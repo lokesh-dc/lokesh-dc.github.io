@@ -4,7 +4,7 @@ export default function Profile () {
     let str = "<Profile>" 
     let str2 = "</Profile>"
     return (
-        <Box  id="profile" pos="relative"  >
+        <Box  id="profile" pos="relative" boxShadow = "rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;" >
             <Img src={require("../Resources/profile.jpg")} 
             alt="Lokesh-choudhary-Profile.jpg" 
             w="75%" m="auto" />

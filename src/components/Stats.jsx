@@ -19,9 +19,9 @@ export default function Stats() {
             </a> */}
         </Grid>
         
-        <a href="https://github.com/lokesh-dc" target="_blank" rel="noreferrer" >
+        {/* <a href="https://github.com/lokesh-dc" target="_blank" rel="noreferrer" >
                 <img alt="lokesh-dc's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=lokesh-dc&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" />
-        </a>
+        </a> */}
         </ Flex>
     )
 }
