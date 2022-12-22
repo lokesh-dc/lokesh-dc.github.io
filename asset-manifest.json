@@ -1,11 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.6313f6f0.css",
-    "main.js": "/static/js/main.fb287d81.js",
+    "main.js": "/static/js/main.bff0747b.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/blog.png": "/static/media/blog.ec2c59a9718b15cde4f1.png",
     "static/media/beautyBebo.png": "/static/media/beautyBebo.c9eb4406618b87919a69.png",
     "static/media/timecamp.png": "/static/media/timecamp.5b9c69de600cab137d7d.png",
     "static/media/ndtv.png": "/static/media/ndtv.b0394a0907cd961a5ffe.png",
+    "static/media/weather.png": "/static/media/weather.da586766160a05f4d19a.png",
     "static/media/monsterIndia.png": "/static/media/monsterIndia.d77c5065bc3e815ed16b.png",
     "static/media/profile.jpg": "/static/media/profile.bd4a75998c811d882881.jpg",
     "static/media/Resume.pdf": "/static/media/Resume.3de6d514dcecbc4d91bd.pdf",
@@ -23,11 +25,11 @@
     "static/media/git.png": "/static/media/git.26acde00c5378f1fcb46.png",
     "index.html": "/index.html",
     "main.6313f6f0.css.map": "/static/css/main.6313f6f0.css.map",
-    "main.fb287d81.js.map": "/static/js/main.fb287d81.js.map",
+    "main.bff0747b.js.map": "/static/js/main.bff0747b.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6313f6f0.css",
-    "static/js/main.fb287d81.js"
+    "static/js/main.bff0747b.js"
   ]
 }
