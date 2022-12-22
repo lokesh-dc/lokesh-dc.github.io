@@ -3,7 +3,7 @@ import { Box, Button, Text } from "@chakra-ui/react"
 
 export default function Intro () {
     return (
-            <Box p={{sm:0 , md:0, lg:"10px"}}>
+            <Box p={{sm:0 , md:0, lg:"10px"}} w="100%">
                     <Text fontSize={{base:"2xl", sm:"3xl", md:"4xl",lg:"4xl"}} color="grey" letterSpacing="10px">HELLO</Text>
                     <Text id="name" fontSize={{base:"2xl", sm:"2xl", md:"4xl",lg:"5xl"}}> I'm <span>Lokesh Choudhary</span> </Text>
                     <Text fontSize={{base:"2xl", sm:"3xl", md:"4xl",lg:"3xl"}} color="red">Full Stack Web Developer</Text>

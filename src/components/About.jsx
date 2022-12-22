@@ -14,12 +14,12 @@ export default function About() {
                 textAlign="left" 
                 justifyContent="center" 
                 alignItems="center"
-                w={{sm:"90%",base:"80%", md:"90%", lg:"100%"}} margin="auto"
+                w={{sm:"80%",base:"90%", md:"90%", lg:"100%"}} margin="auto"
             >
                 <Intro />
                 <Profile />
             </Grid>
-            <Grid justifyContent="space-evenly" templateColumns= {{base:"1fr", sm:"1fr", md:"1fr",lg:"1fr 1fr 1fr"}} gap={5}  px={40} my={{base:0,sm:10,md:10, lg:10}}>
+            <Grid justifyContent="space-evenly" templateColumns= {{base:"1fr", sm:"1fr", md:"1fr",lg:"1fr 1fr 1fr"}} gap={5} my={{base:0,sm:10,md:10, lg:10}}>
                 <SocialMediaIcons />
                 <Grid justifyContent="center" cursor="pointer">
                     <Link to="tech-section" spy={true} smooth={true} offset={-90} duration={750} fontSize="15px" letterSpacing="2px">SCROLL</Link>

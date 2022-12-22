@@ -1,4 +1,4 @@
-import { Flex, Grid, Text} from "@chakra-ui/react";
+import {  Grid, Text} from "@chakra-ui/react";
 import Heading from "./Heading";
 import ProjectCard from "./ProjectCard";
 
@@ -50,7 +50,7 @@ export default function Projects () {
             <Heading title="PROJECTS" />
 
 
-            <Grid id="projects" templateColumns={{base:"1fr", sm: "1fr",md:"repeat(2,1fr)",lg:"repeat(4,1fr)" }} gap="50px" pos="relative" py={{base:5, md:20}} >
+            <Grid id="projects" templateColumns={{base:"1fr", sm: "1fr",md:"repeat(2,1fr)",lg:"repeat(4,1fr)" }} gap="50px" pos="relative" >
                     
                 <Grid pos={"relative"}>
                     <Text pos={"absolute"} fontSize="3rem" top={"-10"} left={{base:"0",lg:"-10"}} >01</Text>

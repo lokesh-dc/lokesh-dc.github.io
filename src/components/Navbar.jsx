@@ -8,6 +8,8 @@ export default function Navbar() {
             gap={{base:"10px", sm:"10px"}}
             alignItems="center" 
             pos="sticky" top="0" bg="white" zIndex="100" 
+            // boxShadow ="rgba(0, 0, 0, 0.35) 0px 5px 15px"
+            boxShadow="rgba(0, 0, 0, 0.04) 0px 3px 5px"
         > 
             <Text id="logo">Lokesh-dc</Text>
             <Grid 
@@ -24,8 +26,8 @@ export default function Navbar() {
             </Grid>
 
             <a href={require("../Resources/Resume.pdf")} download="Lokesh-Choudhary-Resume">
-                <Button  display={{base:"none", sm:"none", lg:"block"}} variant="outline" id="resume" _hover={{bg:"black", color:"white"}} letterSpacing={1}>RESUME</Button>
+                <Button  display={{base:"none", sm:"none", lg:"block"}} variant="outline" id="resume" _hover={{bg:"white", color:"black"}} letterSpacing={1}>RESUME</Button>
             </a>
-        </Grid>
+        </Grid>     
     )
 }
