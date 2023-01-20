@@ -8,9 +8,9 @@ export default function Navbar() {
             gap={{base:"10px", sm:"10px"}}
             alignItems="center" 
             pos="sticky" top="0" bg="white" zIndex="100" 
-            // boxShadow ="rgba(0, 0, 0, 0.35) 0px 5px 15px"
             boxShadow="rgba(0, 0, 0, 0.04) 0px 3px 5px"
         > 
+            
             <Text id="logo">Lokesh-dc</Text>
             <Grid 
             templateColumns={{base:"1fr", sm:"1fr 1fr 1fr", md:"repeat(5,1fr)",lg:"repeat(5,1fr)"}} 

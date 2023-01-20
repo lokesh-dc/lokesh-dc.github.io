@@ -7,10 +7,11 @@ export default function Profile () {
         <Box  id="profile" pos="relative" boxShadow = "rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;" >
             <Img src={require("../Resources/profile.jpg")} 
             alt="Lokesh-choudhary-Profile.jpg" 
-            w="75%" m="auto" />
+            w="75%" m="auto" 
+            borderRadius={"50%"} />
 
-                <Text fontSize="xl" color="#d6d6d6" pos="absolute" top="0" left="0"> {str} </Text>
-                <Text fontSize="xl" color="#d6d6d6" pos="absolute" bottom="0" right="0">{str2}</Text>
+                <Text  className="logo" fontSize="xl" color="#d6d6d6" pos="absolute" top="0" left="0"> {str} </Text>
+                <Text  className="logo" fontSize="xl" color="#d6d6d6" pos="absolute" bottom="0" right="0">{str2}</Text>
         </Box>
     )
 }

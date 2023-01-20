@@ -6,11 +6,9 @@ export default function Skills () {
             w={{sm:"90%",base:"80%", md:"90%", lg:"100%"}} margin="auto"
         >
         <Heading title="TECHNICAL SKILLS"/>
-        <Grid 
-            // w={{base:"70%", sm:"70%",md:"100%"}} ml={{base:"3%", sm:"3%", md:0, lg:0}}
-            
-        >
-            <Grid templateColumns={{base:"repeat(1,1fr)", sm:"repeat(2,1fr)", md:"repeat(3,1fr)", lg:"repeat(5,1fr)"}}  justifyContent="space-around" id="techStack">
+        <Grid>
+            <Grid templateColumns={{base:"repeat(1,1fr)", sm:"repeat(2,1fr)", md:"repeat(3,1fr)", lg:"repeat(5,1fr)"}} mt={"20px"}                                                                                                                                                                                                                                                                                                                                                                                                     
+                gap="30px" justifyContent="space-around" id="techStack">
                 <Box>
                     <Img src={require("../Resources/icons/Tech/BW/htmlbw.png")} alt="" />
                     <Text>HTML5</Text>
