@@ -11,47 +11,54 @@
   margin: 0;
 }
 
-#navbar > a.active ,
-#navbar > a:hover{
+#navbar>a.active,
+#navbar>a:hover {
   text-decoration: 3px underline;
   text-underline-offset: 10px;
   cursor: pointer;
 }
 
 #name {
-  color:#d6d6d6;
+  color: #d6d6d6;
 }
 
-#name > span {
+#name>span {
   font-weight: bold;
   color: black;
   display: inline-block;
 }
+
 .logo,
-#logo{
+#logo {
   font-family: 'Shadows Into Light', cursive;
   letter-spacing: 2px;
   font-weight: bold;
   font-size: 2rem;
 }
-#arrow{
+
+#arrow {
   display: block;
   margin: auto;
 }
-#resume{
+
+#resume {
   margin: 2% 0;
   padding: 0 3%;
   border: 1px solid;
   border-radius: 0;
 }
-#profile{
+
+#profile {
   background-color: #d6d6d6;
   border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-#profile img{
+#profile img {
   display: block;
-  margin: 6% auto;
+  margin: 10px;
 }
 
 .heading {
@@ -63,12 +70,12 @@
   padding: 0;
 }
 
-.heading>p:nth-of-type(2){
+.heading>p:nth-of-type(2) {
   color: black;
   position: absolute;
   bottom: 15px;
   left: 0px;
-  letter-spacing: 2px ;
+  letter-spacing: 2px;
 }
 
 .subHead {
@@ -79,27 +86,28 @@
   border-bottom: 1px solid black;
   padding: 10px;
 }
-.subHead:hover{
+
+.subHead:hover {
   background-color: black;
   color: white;
   cursor: pointer;
 }
 
 
-#contact-icons  img {
-  width:  30px;
+#contact-icons img {
+  width: 30px;
   height: 30px;
 }
 
 
-#techStack > div{
+#techStack>div {
   padding: 20px;
   /* border-right:1px solid rgba(0, 0, 0, 0.116);
   border-bottom:1px solid rgba(0, 0, 0, 0.116); */
-  border:1px solid rgba(0, 0, 0, 0.116);
+  border: 1px solid rgba(0, 0, 0, 0.116);
 }
 
-#techStack img{
+#techStack img {
   display: block;
   margin: auto;
   width: 30px;
@@ -107,7 +115,7 @@
 }
 
 
-#techStack p{
+#techStack p {
   color: black;
   font-size: 1rem;
   padding: 10px 0;
@@ -116,16 +124,18 @@
 }
 
 
-#skills img{
+#skills img {
   width: 30px;
 }
-#skills > div{
+
+#skills>div {
   height: fit-content;
   border: 1px solid rgba(129, 129, 129, 0.103);
   border-radius: 10px;
   padding: 4%;
 }
-#skills > div > div{
+
+#skills>div>div {
   font-size: 1rem;
   align-items: center;
   border: 1px solid rgba(0, 0, 0, 0.255);
@@ -134,38 +144,42 @@
   height: 70px;
   /* grid-auto-flow: column; */
 }
-#skills > div > div> p{
+
+#skills>div>div>p {
   margin-left: 10px;
-}   
-#skills > div > div:hover{
+}
+
+#skills>div>div:hover {
   background-color: #f3f3f3;
   cursor: pointer;
 }
 
-#projects > div{
+#projects>div {
   box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
   text-align: left;
 }
 
-#projects > div:hover{
+#projects>div:hover {
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
-#projects>div>div{
+#projects>div>div {
   padding: 10px;
 }
+
 .projectbuttons button {
   font-weight: 100;
   width: 100%;
   padding: 0.5rem 1rem;
 }
-.live{
-  background-color: rgba(0, 0, 0, 0.637);
+
+.live {
+  background-color: rgba(0, 0, 0, 0.834);
   color: white;
 }
 
-.gitCode{
+.gitCode {
   background-color: transparent;
   border: 1px solid black;
   color: black;
@@ -177,17 +191,18 @@
 }
 
 
-.tech{
+.tech {
   gap: 5px;
   font-size: 012px;
   flex-wrap: wrap;
 }
-.tech > div {
+
+.tech>div {
   color: grey;
   border: 1px solid rgba(0, 0, 0, 0.082);
   display: flex;
   align-items: center;
-  padding: 0.2rem 0.4rem ;
+  padding: 0.2rem 0.4rem;
 }
 
 #statistics {
@@ -195,12 +210,12 @@
   align-items: center;
 }
 
-#statistics > div {
+#statistics>div {
   justify-content: center;
   align-items: center;
 }
 
-#statistics > div >div{
+#statistics>div>div {
   padding: 20px 20px;
   border-radius: 50%;
   width: 120px;
@@ -210,7 +225,7 @@
   align-items: center;
 }
 
-#background-text{
+#background-text {
   color: rgba(128, 128, 128, 0.089);
 }
 
@@ -225,13 +240,13 @@
   gap: 10px;
 }
 
-#contact-section img{
+#contact-section img {
 
   width: 50px;
   height: 50px;
 }
 
-#contact-list img{
+#contact-list img {
   width: 30px;
   height: 30px;
   margin-right: 10px;

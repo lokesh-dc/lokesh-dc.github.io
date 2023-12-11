@@ -23,11 +23,6 @@ export default function ProjectCard({details}) {
                         ))
                     }
                 </Flex>
-                
-
-                {/* <Box pos="absolute" top="0" right="0" color="green" fontWeight="bold"  p="2px 6px"> LIVE</Box> */}
-
-
             </Grid>
     )
 }
