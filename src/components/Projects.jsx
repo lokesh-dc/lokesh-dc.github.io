@@ -12,7 +12,7 @@ import weatherProjectImage from "../Resources/Projects/weather.png";
 
 const ProjectDetails = [
 	{
-		title: "OnScreen Movie App",
+		title: "OnScreen Movie Search App",
 		desc: "Built an interactive movie website to let user search over number of movies and series",
 		tech: ["NextJs", "TailwindCSS"],
 		features: [
