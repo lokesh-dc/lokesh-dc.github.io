@@ -14,6 +14,7 @@ export default function Profile() {
 				alt="Lokesh-Choudhary-Profile"
 				w="90%"
 				borderRadius={"50%"}
+				fetchPriority="high"
 			/>
 
 			<Text

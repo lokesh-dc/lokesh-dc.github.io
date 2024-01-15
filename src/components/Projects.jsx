@@ -2,6 +2,7 @@ import { Grid, Text } from "@chakra-ui/react";
 import Heading from "./Heading";
 import ProjectCard from "./ProjectCard";
 
+import onScreenMovieImage from "../Resources/Projects/movie_search.png";
 import blogProjectImage from "../Resources/Projects/blog.png";
 import timeCampProjectImage from "../Resources/Projects/timecamp.png";
 import monsterIndiaProjectImage from "../Resources/Projects/monsterIndia.png";
@@ -11,8 +12,20 @@ import weatherProjectImage from "../Resources/Projects/weather.png";
 
 const ProjectDetails = [
 	{
+		title: "OnScreen Movie App",
+		desc: "Built an interactive movie website to let user search over number of movies and series",
+		tech: ["NextJs", "TailwindCSS"],
+		features: [
+			"User Login & Signup functionality",
+			"Ineract with blogs or create your own",
+		],
+		imgSrc: onScreenMovieImage,
+		deployedLink: "https://onscreen-movie.vercel.app/",
+		gitLink: "https://github.com/lokesh-dc/moviesearch",
+	},
+	{
 		title: "Medium.com",
-		desc: "Interactive blog website for users to comment blog and write thier own blog as well.",
+		desc: "Interactive blog website for users to comment blog and write thier own blog as well",
 		tech: [
 			"HTML",
 			"CSS",

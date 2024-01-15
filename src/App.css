@@ -251,3 +251,26 @@
   height: 30px;
   margin-right: 10px;
 }
+
+@media screen and (max-width : 600px) {
+  .m-hide {
+    display: none !important;
+  }
+}
+
+.react-activity-calendar__legend-colors rect,
+.react-activity-calendar__legend-colors svg,
+.react-activity-calendar__legend-colors footer {
+  width: 10px;
+  height: 10px;
+  display: none;
+}
+
+.react-activity-calendar__footer.styles_footer__ltlVl {
+  display: none;
+}
+
+/* ::selection {
+  color: white;
+  background: black;
+} */
