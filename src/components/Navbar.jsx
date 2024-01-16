@@ -10,10 +10,11 @@ export default function Navbar() {
 				lg: "0.2fr 0.5fr 0.2fr",
 			}}
 			justifyContent="space-between"
-			p={3}
+			px={3}
+			py={1}
 			gap={{ base: "10px", sm: "10px" }}
 			alignItems="center"
-			pos="sticky"
+			pos={{ base: "static", md: "sticky" }}
 			top="0"
 			bg="white"
 			zIndex="100"

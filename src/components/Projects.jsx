@@ -132,6 +132,7 @@ export default function Projects() {
 				{ProjectDetails?.map((item, index) => (
 					<Grid pos={"relative"}>
 						<Text
+							className="projectNumber"
 							pos={"absolute"}
 							fontSize="3rem"
 							top={"-10"}

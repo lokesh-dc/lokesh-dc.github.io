@@ -10,6 +10,7 @@ import chakraIcon from "../Resources/icons/Tech/BW/chakrabw.png";
 import reduxIcon from "../Resources/icons/Tech/BW/redux.png";
 
 // BackEnd Icons
+import nodeIcon from "../Resources/icons/Tech/BW/nodejs'.png";
 import expressIcon from "../Resources/icons/Tech/BW/express.png";
 import mongoDBIcon from "../Resources/icons/Tech/BW/mongobw.png";
 import gitIcon from "../Resources/icons/Tech/BW/git.png";
@@ -55,6 +56,10 @@ const skillsStack = [
 	{
 		heading: "Backend Development",
 		stack: [
+			{
+				heading: "NodeJs",
+				icon: nodeIcon,
+			},
 			{
 				heading: "ExpressJS",
 				icon: expressIcon,
@@ -117,7 +122,7 @@ export default function TechStack() {
 				textAlign="left"
 			>
 				{skillsStack?.map((item, index) => (
-					<Grid key={index} gap={4}>
+					<Grid key={index} gap={{ base: 2, md: 4 }}>
 						<Text className="subHead">{item?.heading}</Text>
 						{item?.stack?.map((skillItem, index) => (
 							<Flex key={index}>
