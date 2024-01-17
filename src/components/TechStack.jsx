@@ -4,6 +4,7 @@ import Heading from "./Heading";
 import htmlIcon from "../Resources/icons/Tech/BW/htmlbw.png";
 import cssIcon from "../Resources/icons/Tech/BW/cssbw.png";
 import jsIcon from "../Resources/icons/Tech/BW/jsbw.png";
+import tsIcon from "../Resources/icons/Tech/BW/typescript.png";
 import reactIcon from "../Resources/icons/Tech/BW/reactbw.png";
 import reduxIcon from "../Resources/icons/Tech/BW/redux.png";
 import chakraIcon from "../Resources/icons/Tech/BW/chakrabw.png";
@@ -11,6 +12,9 @@ import mongoIcon from "../Resources/icons/Tech/BW/mongobw.png";
 import nodeIcon from "../Resources/icons/Tech/BW/nodejs'.png";
 import expressIcon from "../Resources/icons/Tech/BW/express.png";
 import gitIcon from "../Resources/icons/Tech/BW/git.png";
+import nextIcon from "../Resources/icons/Tech/BW/nextjs.png";
+import tailwind from "../Resources/icons/Tech/BW/tailwind.png";
+import bootstrap from "../Resources/icons/Tech/BW/bootstrap.png";
 
 export default function Skills() {
 	const skills = [
@@ -27,8 +31,16 @@ export default function Skills() {
 			icon: jsIcon,
 		},
 		{
-			label: "React",
+			label: "TypeScript",
+			icon: tsIcon,
+		},
+		{
+			label: "ReactJS",
 			icon: reactIcon,
+		},
+		{
+			label: "NextJS",
+			icon: nextIcon,
 		},
 		{
 			label: "React Redux",
@@ -39,15 +51,23 @@ export default function Skills() {
 			icon: chakraIcon,
 		},
 		{
-			label: "Mongo DB",
+			label: "tailwindcss",
+			icon: tailwind,
+		},
+		{
+			label: "Bootstrap",
+			icon: bootstrap,
+		},
+		{
+			label: "MongoDB",
 			icon: mongoIcon,
 		},
 		{
-			label: "Node JS",
+			label: "NodeJS",
 			icon: nodeIcon,
 		},
 		{
-			label: "Express JS",
+			label: "ExpressJS",
 			icon: expressIcon,
 		},
 		{
@@ -68,10 +88,10 @@ export default function Skills() {
 					base: "repeat(2,1fr)",
 					sm: "repeat(2,1fr)",
 					md: "repeat(3,1fr)",
-					lg: "repeat(5,1fr)",
+					lg: "repeat(6,1fr)",
 				}}
 				mt={"20px"}
-				gap={{ base: "10px", md: "30px" }}
+				gap={{ base: "10px", md: "10px" }}
 				justifyContent="space-around"
 				id="techStack"
 			>

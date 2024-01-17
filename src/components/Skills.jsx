@@ -8,6 +8,10 @@ import jsIcon from "../Resources/icons/Tech/BW/jsbw.png";
 import reactIcon from "../Resources/icons/Tech/BW/reactbw.png";
 import chakraIcon from "../Resources/icons/Tech/BW/chakrabw.png";
 import reduxIcon from "../Resources/icons/Tech/BW/redux.png";
+import nextIcon from "../Resources/icons/Tech/BW/nextjs.png";
+import tailwind from "../Resources/icons/Tech/BW/tailwind.png";
+import bootstrap from "../Resources/icons/Tech/BW/bootstrap.png";
+import tsIcon from "../Resources/icons/Tech/BW/typescript.png";
 
 // BackEnd Icons
 import nodeIcon from "../Resources/icons/Tech/BW/nodejs'.png";
@@ -40,16 +44,37 @@ const skillsStack = [
 				icon: jsIcon,
 			},
 			{
+				heading: "TypeScript",
+				icon: tsIcon,
+			},
+			{
 				heading: "ReactJS",
 				icon: reactIcon,
+			},
+			{
+				heading: "NextJS",
+				icon: nextIcon,
 			},
 			{
 				heading: "Redux",
 				icon: reduxIcon,
 			},
+		],
+	},
+	{
+		heading: "UI Libraries",
+		stack: [
 			{
 				heading: "Chakra UI",
 				icon: chakraIcon,
+			},
+			{
+				heading: "tailwindcss",
+				icon: tailwind,
+			},
+			{
+				heading: "Bootsrap",
+				icon: bootstrap,
 			},
 		],
 	},
@@ -57,7 +82,7 @@ const skillsStack = [
 		heading: "Backend Development",
 		stack: [
 			{
-				heading: "NodeJs",
+				heading: "NodeJS",
 				icon: nodeIcon,
 			},
 			{
@@ -75,15 +100,6 @@ const skillsStack = [
 			{
 				heading: "Postman",
 				icon: postmanIcon,
-			},
-		],
-	},
-	{
-		heading: "Data Structures & Algorithm",
-		stack: [
-			{
-				heading: "Problem Solving",
-				icon: problemSolvingIcons,
 			},
 		],
 	},
@@ -122,7 +138,7 @@ export default function TechStack() {
 				textAlign="left"
 			>
 				{skillsStack?.map((item, index) => (
-					<Grid key={index} gap={{ base: 2, md: 4 }}>
+					<Grid key={index} gap={{ base: 2, md: 3 }}>
 						<Text className="subHead">{item?.heading}</Text>
 						{item?.stack?.map((skillItem, index) => (
 							<Flex key={index}>
