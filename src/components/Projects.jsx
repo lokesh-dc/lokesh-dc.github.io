@@ -12,7 +12,7 @@ import weatherProjectImage from "../Resources/Projects/weather.png";
 
 const ProjectDetails = [
 	{
-		title: "OnScreen Movie Search App",
+		title: "Movie Explorer",
 		desc: "Built an interactive movie website to let user search over number of movies and series",
 		tech: ["NextJs", "TailwindCSS"],
 		features: [
@@ -44,6 +44,14 @@ const ProjectDetails = [
 		imgSrc: blogProjectImage,
 		deployedLink: "https://idyllic-concha-85c2f8.netlify.app/",
 		gitLink: "https://github.com/lokesh-dc/Blog-App",
+	},
+	{
+		title: "Weather App",
+		desc: "An App to get weather for your hometown or search for place you may plan to travel.",
+		tech: ["HTML", "CSS", "JavaScript", "API"],
+		imgSrc: weatherProjectImage,
+		deployedLink: "https://hilarious-alpaca-f7c2a1.netlify.app/",
+		gitLink: "https://github.com/lokesh-dc/Weather-App",
 	},
 	{
 		title: "Timecamp.com",
@@ -99,14 +107,6 @@ const ProjectDetails = [
 		imgSrc: ndtvProjectImage,
 		deployedLink: "https://loquacious-paletas-d45019.netlify.app/",
 		gitLink: "https://github.com/lokesh-dc/Ndtv-clone",
-	},
-	{
-		title: "Weather App",
-		desc: "An App to get weather for your hometown or search for place you may plan to travel.",
-		tech: ["HTML", "CSS", "JavaScript", "API"],
-		imgSrc: weatherProjectImage,
-		deployedLink: "https://hilarious-alpaca-f7c2a1.netlify.app/",
-		gitLink: "https://github.com/lokesh-dc/Weather-App",
 	},
 ];
 
