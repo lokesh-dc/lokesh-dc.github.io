@@ -63,7 +63,7 @@ export default function Contact() {
 					</a>
 					<Flex gap={5} alignItems={"center"}>
 						<TfiMapAlt size={25} />
-						<Text>Bhandara, Maharashtra</Text>
+						<Text>Pune, Maharashtra</Text>
 					</Flex>
 				</Grid>
 			</Grid>

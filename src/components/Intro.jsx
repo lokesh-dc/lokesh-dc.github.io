@@ -22,7 +22,7 @@ export default function Intro() {
 				fontSize={{ base: "2xl", sm: "3xl", md: "4xl", lg: "3xl" }}
 				color="red"
 			>
-				Full Stack Web Developer
+				Frontend Web Developer
 			</Text>
 			<Text fontSize={{ base: "lg", sm: "xl", md: "2xl", lg: "2xl" }}>
 				I build interactive websites that run across platforms and devices{" "}
