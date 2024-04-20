@@ -51,15 +51,6 @@ export default function Navbar() {
 					.technologies()
 				</Link>
 				<Link
-					to="skills-section"
-					spy={true}
-					smooth={true}
-					offset={-80}
-					duration={500}
-				>
-					.skills()
-				</Link>
-				<Link
 					to="projects-section"
 					spy={true}
 					smooth={true}
@@ -67,6 +58,15 @@ export default function Navbar() {
 					duration={500}
 				>
 					.projects()
+				</Link>
+				<Link
+					to="skills-section"
+					spy={true}
+					smooth={true}
+					offset={-80}
+					duration={500}
+				>
+					.skills()
 				</Link>
 				<Link
 					to="contact-section"

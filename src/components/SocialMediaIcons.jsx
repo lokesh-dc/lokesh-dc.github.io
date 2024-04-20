@@ -1,16 +1,10 @@
-import { Grid } from "@chakra-ui/react";
+import { Flex, Grid } from "@chakra-ui/react";
 
 export default function SocialMediaIcons() {
 	return (
-		<Grid
-			templateColumns={{
-				base: "repeat(4,1fr)",
-				sm: "repeat(4,1fr)",
-				md: "repeat(4,1fr)",
-				lg: "repeat(4,1fr)",
-			}}
-			gap="10px"
-			justifyContent="center"
+		<Flex
+			gap="20px"
+			justifyContent="space-evenly"
 			alignItems="center"
 			px={{ base: 10, sm: 0 }}
 			id="contact-icons"
@@ -39,6 +33,6 @@ export default function SocialMediaIcons() {
 			<a href="tel:9172659994">
 				<img src={require("../Resources/icons/phone.png")} alt="call-me" />
 			</a>
-		</Grid>
+		</Flex>
 	);
 }

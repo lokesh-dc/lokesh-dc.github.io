@@ -29,7 +29,7 @@ export default function About() {
 					lg: "1fr 1fr 1fr",
 				}}
 				gap={5}
-				my={{ base: 0, sm: 10, md: 10, lg: 10 }}
+				my={{ base: 5, sm: 10, md: 10, lg: 10 }}
 			>
 				<SocialMediaIcons />
 				<Grid justifyContent="center" cursor="pointer">

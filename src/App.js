@@ -24,10 +24,10 @@ function App() {
 			>
 				<About />
 				<TechStack />
-				<Skills />
 				<Projects />
-				<Statistics />
-				<GitCalendar />
+				{/* <Statistics /> */}
+				<Skills />
+				{/* <GitCalendar /> */}
 				<Contact />
 			</Grid>
 		</Grid>
