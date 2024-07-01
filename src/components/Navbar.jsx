@@ -59,7 +59,7 @@ export default function Navbar() {
 				>
 					.projects()
 				</Link>
-				<Link
+				{/* <Link
 					to="skills-section"
 					spy={true}
 					smooth={true}
@@ -67,7 +67,7 @@ export default function Navbar() {
 					duration={500}
 				>
 					.skills()
-				</Link>
+				</Link> */}
 				<Link
 					to="contact-section"
 					spy={true}

@@ -26,7 +26,7 @@ function App() {
 				<TechStack />
 				<Projects />
 				{/* <Statistics /> */}
-				<Skills />
+				{/* <Skills /> */}
 				{/* <GitCalendar /> */}
 				<Contact />
 			</Grid>
