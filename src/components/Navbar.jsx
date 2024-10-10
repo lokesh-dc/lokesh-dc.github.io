@@ -1,6 +1,31 @@
 import { Button, Grid, Text } from "@chakra-ui/react";
 import { Link } from "react-scroll";
+import { MdOutlineArrowOutward } from "react-icons/md";
+
 export default function Navbar() {
+	const data = [
+		{
+			title: "[ About ]",
+			to: "about-section",
+			offset: -120,
+		},
+		{
+			title: "[ Tech. ]",
+			to: "tech-section",
+			offset: -80,
+		},
+		{
+			title: "[ Projects ]",
+			to: "projects-section",
+			offset: -90,
+		},
+		{
+			title: "[ Contact ]",
+			to: "contact-section",
+			offset: -70,
+		},
+	];
+
 	return (
 		<Grid
 			templateColumns={{
@@ -32,51 +57,18 @@ export default function Navbar() {
 				id="navbar"
 				display={{ base: "none", sm: "none", md: "grid", lg: "grid" }}
 			>
-				<Link
-					to="about-section"
-					spy={true}
-					smooth={true}
-					offset={-120}
-					duration={700}
-				>
-					.about()
-				</Link>
-				<Link
-					to="tech-section"
-					spy={true}
-					smooth={true}
-					offset={-80}
-					duration={500}
-				>
-					.technologies()
-				</Link>
-				<Link
-					to="projects-section"
-					spy={true}
-					smooth={true}
-					offset={-90}
-					duration={500}
-				>
-					.projects()
-				</Link>
-				{/* <Link
-					to="skills-section"
-					spy={true}
-					smooth={true}
-					offset={-80}
-					duration={500}
-				>
-					.skills()
-				</Link> */}
-				<Link
-					to="contact-section"
-					spy={true}
-					smooth={true}
-					offset={-70}
-					duration={500}
-				>
-					.contact()
-				</Link>
+				{data?.map(({ to, offset, title }, navId) => (
+					<Link
+						key={navId}
+						to={to}
+						offset={offset}
+						duration={500}
+						spy={true}
+						smooth={true}
+					>
+						{title}
+					</Link>
+				))}
 			</Grid>
 
 			<a
@@ -90,13 +82,17 @@ export default function Navbar() {
 				}}
 			>
 				<Button
-					display={{ base: "none", sm: "none", lg: "block" }}
+					display={{ base: "none", sm: "none", lg: "flex" }}
 					variant="outline"
-					id="resume"
-					_hover={{ bg: "white", color: "black" }}
+					_hover={{ bg: "black", color: "white" }}
 					letterSpacing={1}
+					alignItems={"center"}
+					gap={2}
+					paddingX={8}
+					paddingY={5}
 				>
 					RESUME
+					<MdOutlineArrowOutward size={20} />
 				</Button>
 			</a>
 		</Grid>

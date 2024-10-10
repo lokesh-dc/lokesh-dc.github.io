@@ -12,7 +12,7 @@ import weatherProjectImage from "../Resources/Projects/weather.png";
 
 const ProjectDetails = [
 	{
-		title: "Movie Explorer",
+		title: "StreamXplore",
 		desc: "Built an interactive movie website to let user search over number of movies and series",
 		tech: ["NextJs", "TailwindCSS"],
 		features: [
