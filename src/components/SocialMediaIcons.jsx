@@ -17,7 +17,7 @@ export default function SocialMediaIcons() {
 				<img src={require("../Resources/icons/github.png")} alt="gitHub" />
 			</a>
 			<a
-				href="https://www.linkedin.com/in/lokesh-dc/"
+				href="https://www.linkedin.com/in/choudhary-lokesh/"
 				target="_blank"
 				rel="noopener noreferrer"
 			>
