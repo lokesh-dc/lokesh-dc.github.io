@@ -1,4 +1,4 @@
-import { Flex, Grid, Text } from "@chakra-ui/react";
+import { Center, Flex, Grid, Text } from "@chakra-ui/react";
 import Heading from "./Heading";
 import SocialMediaIcons from "./SocialMediaIcons";
 
@@ -48,6 +48,8 @@ export default function Contact() {
 					}}
 					gap="10px"
 					id="contact-list"
+					justifyContent={"center"}
+					textAlign={"center"}
 				>
 					<a
 						href="mailto:lokesh.cdewanand@gmail.com"
