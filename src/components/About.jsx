@@ -5,7 +5,11 @@ import Profile from "./Profile";
 import SocialMediaIcons from "./SocialMediaIcons";
 export default function About() {
 	return (
-		<Grid id="about-section">
+		<Grid
+			id="about-section"
+			// width={{ sm: "80%", base: "80%", md: "90%", lg: "100%" }}
+			margin="auto"
+		>
 			<Grid
 				templateColumns={{ base: "1fr", sm: "1fr", md: "1fr", lg: "2fr 1fr" }}
 				py={{ base: "10px", sm: "10px", md: 5, lg: 10 }}
@@ -14,8 +18,6 @@ export default function About() {
 				textAlign="left"
 				justifyContent="center"
 				alignItems="center"
-				w={{ sm: "80%", base: "90%", md: "90%", lg: "100%" }}
-				margin="auto"
 			>
 				<Intro />
 				<Profile />

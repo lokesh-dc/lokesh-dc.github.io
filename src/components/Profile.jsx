@@ -4,7 +4,7 @@ export default function Profile() {
 	let str = "<Profile>";
 	let str2 = "</Profile>";
 	return (
-		<Box pos="relative">
+		<Box pos="relative" display={"flex"} justifyContent={"center"}>
 			<Img
 				src={require("../Resources/profile.jpeg")}
 				alt="Lokesh-Choudhary-Profile"
@@ -13,25 +13,21 @@ export default function Profile() {
 				fetchPriority="high"
 				boxShadow="rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;"
 				backgroundColor={"rgba(0,0,0,0.14)"}
-				padding={"3"}
+				padding={1}
 			/>
-
 			<Text
 				className="logo"
 				fontSize="xl"
-				// color="#d6d6d6"
 				color={"black.200"}
 				pos="absolute"
 				top="0"
 				left="0"
 			>
-				{" "}
-				{str}{" "}
+				{str}
 			</Text>
 			<Text
 				className="logo"
 				fontSize="xl"
-				// color="#d6d6d6"
 				color={"black.200"}
 				pos="absolute"
 				bottom="0"
