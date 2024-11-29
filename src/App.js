@@ -22,12 +22,12 @@ function App() {
 			<Navbar />
 			<Grid
 				gap={{ base: "20px", sm: "20px", md: "60px", lg: "40px" }}
-				px={{ base: 0, sm: 0, md: "100px", lg: "150px" }}
+				px={{ base: "20px", sm: "20px", md: "100px", lg: "150px" }}
 				width={"100%"}
 				marginBottom={4}
 			>
 				<About />
-				{/* <TechStack /> */}
+				<TechStack />
 				{/* <Projects /> */}
 				<ProjectsContainer />
 				{/* <Statistics /> */}

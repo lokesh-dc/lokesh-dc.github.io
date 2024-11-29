@@ -7,7 +7,7 @@ export default function About() {
 	return (
 		<Grid
 			id="about-section"
-			width={{ sm: "80%", base: "80%", md: "90%", lg: "100%" }}
+			// width={{ sm: "80%", base: "80%", md: "90%", lg: "100%" }}
 			margin="auto"
 		>
 			<Grid

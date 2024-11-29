@@ -19,22 +19,6 @@ import bootstrap from "../Resources/icons/Tech/BW/bootstrap.png";
 export default function Skills() {
 	const skills = [
 		{
-			label: "HTML5",
-			icon: htmlIcon,
-		},
-		{
-			label: "CSS3",
-			icon: cssIcon,
-		},
-		{
-			label: "JavaScript",
-			icon: jsIcon,
-		},
-		{
-			label: "TypeScript",
-			icon: tsIcon,
-		},
-		{
 			label: "ReactJS",
 			icon: reactIcon,
 		},
@@ -45,6 +29,22 @@ export default function Skills() {
 		{
 			label: "React Redux",
 			icon: reduxIcon,
+		},
+		{
+			label: "JavaScript",
+			icon: jsIcon,
+		},
+		{
+			label: "TypeScript",
+			icon: tsIcon,
+		},
+		{
+			label: "HTML5",
+			icon: htmlIcon,
+		},
+		{
+			label: "CSS3",
+			icon: cssIcon,
 		},
 		{
 			label: "Chakra UI",
@@ -59,16 +59,16 @@ export default function Skills() {
 			icon: bootstrap,
 		},
 		{
-			label: "MongoDB",
-			icon: mongoIcon,
-		},
-		{
 			label: "NodeJS",
 			icon: nodeIcon,
 		},
 		{
 			label: "ExpressJS",
 			icon: expressIcon,
+		},
+		{
+			label: "MongoDB",
+			icon: mongoIcon,
 		},
 		{
 			label: "GitHub",
@@ -79,8 +79,8 @@ export default function Skills() {
 	return (
 		<Grid
 			id="tech-section"
-			w={{ sm: "90%", base: "80%", md: "90%", lg: "100%" }}
-			margin="auto"
+			// w={{ sm: "90%", base: "80%", md: "90%", lg: "100%" }}
+			// margin="auto"
 		>
 			<Heading title="TECHNICAL SKILLS" />
 			<Grid
