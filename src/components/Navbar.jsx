@@ -44,9 +44,11 @@ export default function Navbar() {
 			bg="white"
 			zIndex="100"
 			boxShadow="rgba(0, 0, 0, 0.04) 0px 3px 5px"
-			width={"100%"}
+			minW={"100%"}
 		>
-			<Text id="logo">Lokesh-dc</Text>
+			<Text w={"100%"} id="logo">
+				Lokesh-dc
+			</Text>
 			<Grid
 				templateColumns={{
 					base: "1fr",

@@ -9,8 +9,7 @@ export default function Contact() {
 		<Grid
 			pos="relative"
 			id="contact-section"
-			m="10px auto"
-			w={{ sm: "80%", base: "80%", md: "90%", lg: "100%" }}
+			// m="10px auto"
 		>
 			<Heading title={"CONTACT ME"} />
 			<Grid>
