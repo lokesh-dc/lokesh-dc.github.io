@@ -1,21 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.c5b5c20e.css",
-    "main.js": "/static/js/main.ac8c33a0.js",
+    "main.css": "/static/css/main.475e6239.css",
+    "main.js": "/static/js/main.3b0fc855.js",
     "static/js/453.ace21015.chunk.js": "/static/js/453.ace21015.chunk.js",
-    "static/media/movie_search.png": "/static/media/movie_search.d7350d712e129ddf83fe.png",
-    "static/media/blog.png": "/static/media/blog.ec2c59a9718b15cde4f1.png",
-    "static/media/beautyBebo.png": "/static/media/beautyBebo.c9eb4406618b87919a69.png",
-    "static/media/timecamp.png": "/static/media/timecamp.5b9c69de600cab137d7d.png",
-    "static/media/ndtv.png": "/static/media/ndtv.b0394a0907cd961a5ffe.png",
+    "static/media/HomePage.png": "/static/media/HomePage.833673638bf529d599b8.png",
+    "static/media/weather_io.png": "/static/media/weather_io.ed09739e2057aaf03006.png",
     "static/media/profile.jpeg": "/static/media/profile.307124740cb671de8574.jpeg",
-    "static/media/weather.png": "/static/media/weather.da586766160a05f4d19a.png",
-    "static/media/monsterIndia.png": "/static/media/monsterIndia.d77c5065bc3e815ed16b.png",
+    "static/media/todo-app.png": "/static/media/todo-app.0522e0484f8704881a38.png",
+    "static/media/job-section.png": "/static/media/job-section.30b2ce4bee7f16db2894.png",
     "static/media/Resume.pdf": "/static/media/Resume.182ba107e222db1640cf.pdf",
-    "static/media/active.png": "/static/media/active.d8d9fa3e15cf0ffd3204.png",
-    "static/media/collab.png": "/static/media/collab.bfa728ed7c702ca76997.png",
     "static/media/github.png": "/static/media/github.9e094d235b4caa7c31fc.png",
-    "static/media/problem.png": "/static/media/problem.6fe9b0b713f54ffc430f.png",
     "static/media/linked.png": "/static/media/linked.41a23f98c77f41c13b8e.png",
     "static/media/email.png": "/static/media/email.00b77611c2b53e1aed4a.png",
     "static/media/reactbw.png": "/static/media/reactbw.5cb83655567dd3efc230.png",
@@ -23,12 +17,12 @@
     "static/media/nodejs'.png": "/static/media/nodejs'.1393f8adffcb082e75ea.png",
     "static/media/git.png": "/static/media/git.26acde00c5378f1fcb46.png",
     "index.html": "/index.html",
-    "main.c5b5c20e.css.map": "/static/css/main.c5b5c20e.css.map",
-    "main.ac8c33a0.js.map": "/static/js/main.ac8c33a0.js.map",
+    "main.475e6239.css.map": "/static/css/main.475e6239.css.map",
+    "main.3b0fc855.js.map": "/static/js/main.3b0fc855.js.map",
     "453.ace21015.chunk.js.map": "/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5b5c20e.css",
-    "static/js/main.ac8c33a0.js"
+    "static/css/main.475e6239.css",
+    "static/js/main.3b0fc855.js"
   ]
 }
