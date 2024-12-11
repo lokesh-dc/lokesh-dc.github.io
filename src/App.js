@@ -2,11 +2,7 @@ import { Grid } from "@chakra-ui/react";
 import "./App.css";
 import About from "./components/About";
 import Contact from "./components/Contact";
-import GitCalendar from "./components/gitHubCalendar";
 import Navbar from "./components/Navbar";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
-import Statistics from "./components/Statistics";
 import TechStack from "./components/TechStack";
 import ProjectsContainer from "./components/projects/container";
 
@@ -28,11 +24,7 @@ function App() {
 			>
 				<About />
 				<TechStack />
-				{/* <Projects /> */}
 				<ProjectsContainer />
-				{/* <Statistics /> */}
-				{/* <Skills /> */}
-				{/* <GitCalendar /> */}
 				<Contact />
 			</Grid>
 		</Grid>

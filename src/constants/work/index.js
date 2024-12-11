@@ -1,7 +1,7 @@
 import onScreenMovieImage from "../../Resources/Mockups/StreamXplore/HomePage.png";
 import weatherIO from "../../Resources/Mockups/weather/weather_io.png";
 import organizeTodo from "../../Resources/Mockups/organize-todos/todo-app.png";
-
+import monsterIndiaProjectImage from "../../Resources/Mockups/monster/job-section.png";
 export const data = [
 	{
 		title: "StreamXplore",
@@ -48,5 +48,18 @@ export const data = [
 		imgSrc: weatherIO,
 		deployedLink: "https://hilarious-alpaca-f7c2a1.netlify.app",
 		gitLink: "https://github.com/lokesh-dc/Weather-App",
+	},
+	{
+		title: "MonsterIndia.com",
+		src: "../Resources/Projects/monsterIndia.png",
+		desc: "Monster India is an online employment solution for people seeking jobs.",
+		tech: ["HTML", "CSS", "JavaScript", "React", "API"],
+		features: [
+			"End to end User flow Different sorting & filtering features",
+			"Login &Signup for users",
+		],
+		imgSrc: monsterIndiaProjectImage,
+		deployedLink: "https://joyful-elf-e0863a.netlify.app/",
+		gitLink: "https://github.com/lokesh-dc/Monser-India-Clone",
 	},
 ];
