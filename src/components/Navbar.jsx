@@ -72,7 +72,9 @@ export default function Navbar() {
 			</Grid>
 
 			<a
-				href={require("../Resources/Resume.pdf")}
+				href={
+					"https://drive.google.com/file/d/1pG_fjedV8uibIgTgv8I9rLj9bfpSaJQ3/view?usp=drive_link"
+				}
 				download="Lokesh-Choudhary-Resume"
 				className="m-hide"
 				style={{
@@ -80,6 +82,7 @@ export default function Navbar() {
 					justifyContent: "center",
 					alignItems: "center",
 				}}
+				target="_blank"
 			>
 				<Button
 					display={{ base: "none", sm: "none", lg: "flex" }}

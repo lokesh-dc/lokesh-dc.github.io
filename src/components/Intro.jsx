@@ -38,8 +38,12 @@ export default function Intro() {
 			</Text>
 			<Flex gap={5} mt={2}>
 				<a
-					href={require("../Resources/Resume.pdf")}
+					href={
+						"https://drive.google.com/file/d/1pG_fjedV8uibIgTgv8I9rLj9bfpSaJQ3/view?usp=drive_link"
+					}
 					download="Lokesh-Choudhary-Resume"
+					target="_blank"
+					rel="noopener"
 				>
 					<Button
 						variant="outline"
